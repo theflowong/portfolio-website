@@ -1,0 +1,66 @@
+/*--------------------Footer--------------------*/
+
+#footer {
+	clear: both;
+	padding: 0px 0px;
+	background-color: rgba(250,250,250,0.9);
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+	text-align: center;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin: auto auto;
+	width: 100%;
+	letter-spacing: 1.5px;
+}
+
+	ul.media {
+		list-style-type: none;
+		margin: 0;
+		padding-left: 5%;
+	}
+	ul.media li {
+		float: left;
+		position: relative;
+		padding: 13px 1%;
+	}
+	ul.media li a.contact_icon {
+		display: block;
+		color: rgba(84,84,84,.75);
+		text-align: center;
+		font-size: 20px;
+		-webkit-transition: all 1s ease;
+	    -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	    -o-transition: all 1s ease;
+	    transition: all 1s ease;
+	}
+
+	ul.media li a.contact_icon:hover {
+		color: teal;
+	}
+
+	#copyright {
+		display: block;
+		float: right;
+		right: 20px;
+		margin: 0px 0px;
+		line-height: normal;
+		text-align: right;
+		color: rgb(84,84,84);
+		font-size: 10px;
+		font-family: Voltaire;
+	    -webkit-transition: all 1s ease;
+	    -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	    -o-transition: all 1s ease;
+	    transition: all 1s ease;
+	}
+
+	#copyright:hover {
+		color: black;
+	}

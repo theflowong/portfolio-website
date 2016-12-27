@@ -1,0 +1,72 @@
+
+#header {
+	background-color: rgb(250,250,250);
+	/*background-image: url("feet.jpg");*/
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: rgb(84,84,84);
+	text-align: right;
+	padding: 20px 0px 15px 0px; /* top right bottom left */
+	/*font-size: 30px;*/
+	position: fixed;
+	width: 100%;
+	margin: auto auto;
+	z-index: 99;
+	letter-spacing: 1px;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center; /* Safari */
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center; /* Safari */
+	justify-content: center;
+}
+
+
+
+#title_florencewong,
+#title_flowong {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	font-size: 35px;
+	color: purple;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#title_florencewong:hover,
+#title_flowong:hover {
+	/* color: rgb(255,190,120); */
+		/* faint orange */
+	color: rgb(250,160,60);
+}
+
+#title_flowong {
+	display: block;
+}
+#title_florencewong {
+	display: none;
+}
+
+@media only screen and (min-width: 955px) {
+	#title_flowong {
+		display: none;
+	}
+	#title_florencewong {
+		display: block;
+	}
+}

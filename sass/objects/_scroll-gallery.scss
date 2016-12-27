@@ -1,0 +1,229 @@
+/*--------------------for specific art project pages--------------------*/
+#content_art {
+	white-space: nowrap;
+	height: 500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.scroll-gallery_container {
+	display: inline-block;
+	position: relative;
+	/*height: 500px;*/
+	width: 100%;
+}
+
+/* DEFAULT (mobile): make scroll gallery text and photos on top of each other? */
+.scroll-gallery_text {
+	vertical-align: top;
+	/*float: left;*/
+	/*left: 0;*/
+	padding: 40px;
+	background-color: rgba(250,250,250,0.9);
+}
+
+.scroll-gallery_container .title {
+	white-space: normal;
+	font-family: Selima;
+	font-size: 26px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.scroll-gallery_container .title-main {
+	font-family: Selima;
+	font-size: 32px;
+	padding-bottom: 12px;
+}
+
+.scroll-gallery_container .title-info {
+	font-size: 14px;
+	font-family: Libre Baskerville;
+	font-style: italic;
+	letter-spacing: 0.6px;
+}
+
+.scroll-gallery_container .description {
+	text-align: left;
+	font-family: 'Libre Baskerville', Open Sans, Helvetica, sans-serif;
+	/*font-size: 16px;
+	line-height: 28px;*/
+}
+
+	#art_title_filler {
+		position: absolute;
+		left: 0;
+		height: 500px;
+		width: 300px;
+		padding: 0;
+		background-color: rgba(250,250,250,0.9);
+	}
+
+	#art_title {
+		padding: 40px;
+		white-space: normal;
+
+		/* for title */
+		font-family: Selima;
+		font-size: 26px;
+		letter-spacing: 1px;
+	}
+
+	#art_title h3 { /* clean this up (make labels clearer) */
+		font-family: Open Sans, Helvetica;
+		font-size: 13px;
+	}
+
+.scroll-gallery_art {
+	/*vertical-align: top;*/
+	/*width: 67%; /* for larger screens (scroll overflow-x setup) */
+	/*height: 80vh;*/
+	text-align: left;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.scroll-gallery_art ul {
+	padding: 0;
+	white-space: nowrap;
+	list-style: none;
+	display: block;
+}
+
+.scroll-gallery_art li .art-description {
+	text-align: left;
+	max-width: 400px;
+	white-space: normal;
+	padding: 30px 20px;
+	height: 85%;
+	overflow-y: scroll;
+	font-family: Libre Baskerville;
+}
+
+.scroll-gallery_art li {
+
+}
+.scroll-gallery_art img {
+	width: 90%;
+	height: auto;
+}
+
+.scroll-gallery_art figure {
+}
+
+
+
+#scroll-gallery_art {
+	/*vertical-align: top;*/
+	/*width: 67%; /* for larger screens (scroll overflow-x setup) */
+	/*height: 80vh;*/
+	text-align: left;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#scroll-gallery_art ul {
+	padding: 0;
+	white-space: nowrap;
+	list-style: none;
+	display: block;
+}
+
+#scroll-gallery_art li {
+	text-align: center;
+}
+#scroll-gallery_art img {
+	width: 90%;
+	height: auto;
+}
+
+#scroll-gallery_art figure {
+}
+
+/* text on image mouseover - but does not horizontal scroll anymore when implemented
+
+.scroll .caption {
+	position: relative;
+	bottom: 30px;
+	left: 0px;
+	visibility: hidden;
+}
+
+.scroll:hover .caption {
+	visibility: visible;
+}
+
+*/
+
+/* landscape and larger width screens: horizontal-scroll */
+@media only screen and (min-width: 768px) {
+
+	.scroll-gallery_text {
+		display: inline-block;
+		width: 30%;
+		min-width: 300px;
+		height: 80vh;
+	}
+
+	.scroll-gallery_text .description {
+		height: 70%; /* maybe have a more elegant responsive solution */
+		overflow-y: scroll;
+	}
+	.scroll-gallery_art {
+		vertical-align: top;
+		display: inline-block;
+		width: 67%;
+		height: 80vh;
+	}
+	.scroll-gallery_art ul {
+		margin-right: -999em;
+	}
+
+	.scroll-gallery_art li {
+		height: 80vh;
+		float: left;
+		display: inline-block;
+	}
+
+	.scroll-gallery_art img {
+		display: inline;
+		max-height: 100%;
+		width: auto;
+		height: auto\9; /* for Internet Explorer */
+		object-fit: contain;
+		margin-right: 6px;
+	}
+	#scroll-gallery_art {
+		vertical-align: top;
+		display: inline-block;
+		width: 67%;
+		height: 80vh;
+	}
+	#scroll-gallery_art ul {
+		margin-right: -999em;
+	}
+
+	#scroll-gallery_art li {
+		height: 80vh;
+		float: left;
+		display: inline-block;
+	}
+
+	#scroll-gallery_art img {
+		display: inline;
+		max-height: 100%;
+		width: auto;
+		height: auto\9; /* for Internet Explorer */
+		object-fit: contain;
+		margin-right: 6px;
+	}
+}
+
+/* what was i thinking to do with this? */
+@media only screen and (min-width: 1120px) {
+}
+
+
+/*--------------------end Scroll gallery (specific art gallery pages) styling--------------------*/

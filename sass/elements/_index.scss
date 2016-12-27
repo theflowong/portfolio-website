@@ -1,0 +1,115 @@
+/*--------------------begin WordPress stuff--------------------*/
+/*				(just in case I want to use it)				*/
+
+article, /* list copied from Wordpress; compare with own */
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio, /* may not need this... include just in case */
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+/*--------------------end WordPress--------------------*/
+
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+}
+
+body {
+	/*background-image: url("feet.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	background-color: rgb(250,250,250);
+	color: rgb(84, 84, 84);
+	font-family: Open Sans, Raleway, Corbel, Futura, Helvetica Neue, Arial, Courier, Helvetica;
+	text-align: center;
+	margin: 0; /*top right bottom left*/
+	overflow-x: hidden;
+}
+
+/*--------------------Links--------------------*/
+a {
+	color: rgb(0,160,120);
+	text-decoration: none;
+	    -webkit-transition: all 1s ease;
+	    -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	    -o-transition: all 1s ease;
+	    transition: all 1s ease;
+}
+a:hover {
+	color: orange;
+}
+
+
+/*--------------------H Fonts--------------------*/
+h1,
+h2 {
+	font-family: Unica One, Voltaire, Corbel, Helvetica, Arial;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	    -webkit-transition: all 1s ease;
+	    -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	    -o-transition: all 1s ease;
+	    transition: all 1s ease;
+	color: rgb(0,160,120);
+}
+
+h2:hover {
+	font-size: 35px;
+}
+
+h3, h4 {
+	font-family: Open Sans, Helvetica;
+	text-align: center;
+	font-size: 13px;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+ul {
+	text-align: left;
+}

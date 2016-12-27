@@ -1,0 +1,123 @@
+--------------------OLD photo_grid stuff--------------------
+
+
+#photo_grid {
+	width: 100%;
+	table-layout: fixed; /* for Firefox */
+	/*text-align: left;*/
+	/*margin-left: -2.5%;*/
+}
+
+#photo_grid ul {
+	padding: 0;
+	margin: 0;
+}
+
+#photo_grid tr {
+	max-width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#photo_grid li {
+	list-style-type: none;
+	margin: 0 0 10px;
+}
+
+#photo_grid img {
+	width: 100%; /* for Firefox */
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	vertical-align: top;
+}
+
+#photo_grid .fade {
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+#photo_grid .fade figcaption {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 0;
+	width: 100%; /* of the table... fix it to just the image */
+	height: 100%; /* of the table */
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center; /* Safari */
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center; /* Safari */
+	justify-content: center;
+	color: white;
+	font-family: Unica One;
+	font-size: 10px;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#photo_grid .fade figcaption span {
+	padding: 20px; /* for caption titles inside box */
+	display: table-cell;
+	position: relative;
+	-moz-transform: translateY(-40px);
+	-webkit-transform: translateY(-40px); /* Safari */
+	-ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+	transform: translateY(-40px);
+	-webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#photo_grid .fade figcaption:hover {
+	opacity: 1;
+}
+
+#photo_grid .fade figcaption:hover span {
+	-moz-transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	font-size: 20px;
+}
+
+#photo_grid .fade img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#photo_grid .fade li:hover img {
+	max-width: 100%;
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	transform: scale(1.4); /* why doesn't this work?? */
+}
+
+/*--------------------end photogrid container stuff--------------------*/
+
