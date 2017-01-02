@@ -10,7 +10,7 @@
 							Coding + Art
 						</div>
 						<div class="title-info">
-							ProCreate<br>
+							Processing<br>
 							2016
 						</div>
 					</div>
@@ -45,10 +45,10 @@
 				<div class="scroll-gallery_art">
 					<ul>
 							<li>
-								<canvas class="processing-canvas" data-processing-sources="img/processing/trippy_trees_total.pde" style="border: 1px solid black;"></canvas>
+								<canvas class="processing-canvas" data-processing-sources="img/processing/trippy_trees_total.pde"></canvas>
 							</li>
 							<li>
-								<canvas class="processing-canvas" data-processing-sources="img/processing/game.pde" style="border: 1px solid black;"></canvas>
+								<canvas class="processing-canvas" data-processing-sources="img/processing/game.pde"></canvas>
 							</li>
 					</ul>
 				</div>
