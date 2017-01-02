@@ -7,7 +7,7 @@
 
 					<div class="title">
 						<div class="title-main">
-							Digital Art
+							Coding + Art
 						</div>
 						<div class="title-info">
 							ProCreate<br>
@@ -17,9 +17,9 @@
 
 					<div class="description">
 						<article>
-							<p>
+							<!--<p>
 								<strong><em>**For these animations to work, please use Safari!**</em></strong>
-							</p>
+							</p>-->
 								<p>I am currently trying to learn <a href="http://processingjs.org/">
 									Processing</a>, a language that combines coding
 									with art.
@@ -45,11 +45,10 @@
 				<div class="scroll-gallery_art">
 					<ul>
 							<li>
-								<script type="text/javascript" src="https://raw.githubusercontent.com/processing-js/processing-js/v1.4.8/processing.js"></script>
-								<canvas class="processing-canvas" data-processing-sources="img/processing/trippy_trees_total.pde" style="border: 1px solid black;"/></canvas>
+								<canvas class="processing-canvas" data-processing-sources="img/processing/trippy_trees_total.pde" style="border: 1px solid black;"></canvas>
 							</li>
 							<li>
-								<canvas class="processing-canvas" data-processing-sources="img/processing/game.pde" style="border: 1px solid black;"/></canvas>
+								<canvas class="processing-canvas" data-processing-sources="img/processing/game.pde" style="border: 1px solid black;"></canvas>
 							</li>
 					</ul>
 				</div>

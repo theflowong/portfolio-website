@@ -48,7 +48,8 @@
 		<script src="js/scroll.js" type="text/javascript"></script>
 
 		<!-- Processing -->
-		<script src="https://raw.githubusercontent.com/processing-js/processing-js/v1.4.8/processing.min.js" type="text/javascript"></script>
+		<!--<script src="https://raw.githubusercontent.com/processing-js/processing-js/v1.4.8/processing.min.js" type="text/javascript"></script>-->
+		<script src="js/processing-1.4.8.min.js"></script>
 
 		<!-- Theme Javascript -->
 		<script src="js/flowong.js" type="text/javascript"></script>
