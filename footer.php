@@ -10,7 +10,7 @@
 				<li><a class = "contact_icon" href="https://www.facebook.com/florencewong1020"><i class="fa fa-facebook-square"></i></a></li>
 				<li id = "copyright">
 					Website Design
-					<br>by Florence Wong &copy; 2016
+					<br>by Florence Wong &copy; <?php echo date('Y')?>
 				</li>
 			</ul>
 		</div>
