@@ -11,24 +11,23 @@
 						</div>
 						<div class="title-info">
 							Processing<br>
-							2016
+							October 2016
 						</div>
 					</div>
 
 					<div class="description">
 						<article>
-							<!--<p>
-								<strong><em>**For these animations to work, please use Safari!**</em></strong>
-							</p>-->
-								<p>I am currently trying to learn <a href="http://processingjs.org/">
-									Processing</a>, a language that combines coding
-									with art.
+
+								<p>On a recent trip to my alma mater, I was inspired by the
+									amount of life in the Arboretum, and decided to create
+									an animated visualization of a breathing autumn landscape.
 								</p>
 
-								<p>I visited my alma mater recently and was inspired by the
-									amount of life in the Arboretum, so decided to create an
-									animated visualization of trees and a landscape that seemed
-									like it was breathing, hence the name "Trees on Acid."
+								<p>This was made with <a href="http://processingjs.org/">
+									Processing</a>, a language that combines coding
+									with art. I used object-oriented programming to
+									create animated mathematical functions resulting in a rhythm
+									of colors and pulses for the trees, moon, and land.
 								</p>
 
 								<p>See my code
@@ -46,9 +45,6 @@
 					<ul>
 							<li>
 								<canvas class="processing-canvas" data-processing-sources="img/processing/trippy_trees_total.pde"></canvas>
-							</li>
-							<li>
-								<canvas class="processing-canvas" data-processing-sources="img/processing/game.pde"></canvas>
 							</li>
 					</ul>
 				</div>
