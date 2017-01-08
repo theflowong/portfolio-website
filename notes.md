@@ -24,8 +24,8 @@
  * medium
  * dates
  * image(s)
-  * preview image(s)
-  * image description
+   * preview image(s)
+   * image description
  * link
 - [ ] Filter button to open up filters
  - [ ] Filter by: all, animal activism, digital, 2d, 3d
