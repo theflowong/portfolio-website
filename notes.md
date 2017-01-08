@@ -1,22 +1,25 @@
 # In-progress Notes: To-Do
 
-## Mobile-first
-- [ ] Change media queries
-- [ ] Lower-res photos
-- [ ] **Captions in gallery portfolio photos**
-  * to let people know to click into a series
-- [ ] Portfolio page photos: click into photo for more info?
-  * how to make that intuitive for users?
-- [ ] Filter button to open up filters
 
-## Gallery portfolio
-- [ ] Fix isotope docs
-- [ ] Filter button to open up filters
+## Header
+- [ ] Center name/title
 
 ## Menu/navigation
 - [ ] Hamburger icon animation (make sure media query is mobile-first)
 - [ ] Separate About section, Contact/Connect section?
 
+## Index: gallery portfolio
+- [ ] Filter button to open up filters
+ - [ ] Filter by: all, animal activism, digital, 2d, 3d
+- [ ] Make captions visible (not only when clicked) for mobile
+- [ ] Use lower-res photos
+ - [ ] Even lower-res for mobile
+- [ ] Fix isotope docs
+- [ ] Filter button to open up filters
+
 ## Portfolio Page
+- [ ] Change media queries for mobile-first approach
 - [ ] Weird media query in-between
 - [ ] Interface? see WP examples
+- [ ] Photos: click into photo for more info?
+  * how to make that intuitive for users?
