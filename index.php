@@ -10,7 +10,7 @@
 
 
 			    <a href="#" data-filter=".places">Places</a>
-				<a href="#" data-filter=".figures">Figures</a>
+					<a href="#" data-filter=".figures">Figures</a>
 
 			   	<a href="#" data-filter=".dreamy">Surreal</a>
 			   	<br>
@@ -23,7 +23,6 @@
 				<!--<div class="portfolioContent">-->
 
 				<div class="grid-sizer"></div>
-
 				<div class="grid-item dreamy places 3d">
 					<a href="ceramics.php">
 						<figure class="fade" title="Cups, Mugs & Plates">

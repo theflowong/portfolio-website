@@ -54,8 +54,7 @@ See tutorial http://www.9bitstudios.com/2013/04/jquery-isotope-tutorial/
 
 .portfolioContainer {
     width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .grid-sizer, .grid-item {

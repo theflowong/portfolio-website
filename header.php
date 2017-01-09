@@ -52,7 +52,7 @@
 		<script src="js/processing-1.4.8.min.js"></script>
 
 		<!-- Theme Javascript -->
-		<script src="js/flowong.js" type="text/javascript"></script>
+		<script src="js/isotope-gallery.js" type="text/javascript"></script>
 
 
 

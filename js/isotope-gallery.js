@@ -17,7 +17,8 @@ $(window).load(
             resizable: false,
             masonry: {
                 columnWidth: '.grid-sizer',
-                isFitWidth: true
+                //isFitWidth: true,
+                fitWidth: true
             },
 
             filter: '*',
@@ -32,12 +33,16 @@ $(window).load(
             // set columnWidth to a percentage of container width
     //        masonry: { columnWidth: $container.width() / 5 }
 
+/*
         // update columnWidth on window resize
-    //    $(window).smartresize(function(){
-    //        $container.isotope({
-    //            masonry: { columnWidth: $container.width() / 5 }
-    //        });
-    //    });
+       $(window).smartresize(function(){
+           $container.isotope({
+               masonry: { columnWidth: $container.width() / 5 }
+           });
+       });
+       */
+
+
         // filter
         $('.portfolioFilter a').click(function(){
             $('.portfolioFilter .current').removeClass('current');
