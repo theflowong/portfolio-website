@@ -39,7 +39,7 @@
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 		<!-- Isotope jQuery (don't need, right?)-->
-		<!--<script src="js/jquery.isotope.js" type="text/javascript"></script>-->
+		<script src="js/jquery.isotope.js" type="text/javascript"></script>
 
 		<!-- Isotope JS -->
 		<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js" type="text/javascript"></script>

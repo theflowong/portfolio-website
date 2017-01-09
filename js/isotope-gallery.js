@@ -26,7 +26,7 @@ $(window).load(
                 duration: 750,
                 easing: 'linear',
                 queue: false
-            },
+            }
         });
 
     //        resizable: false, // disable normal resizing
