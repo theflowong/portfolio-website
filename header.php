@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="p:domain_verify" content="b1f215d4c138a3e2c595ef85d385fada"/>
 
-		<title>Florence Wong</title>
+		<title>Flo Wong: Portfolio Website</title>
 
 		<!--shortcut icon; should make new one-->
 		<link rel = "shortcut icon" href = "img/flo.ico" type="image/x-icon" />
