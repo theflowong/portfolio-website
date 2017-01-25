@@ -1,0 +1,29 @@
+/*--------------------begin WordPress stuff--------------------*/
+/*				(just in case I want to use it)				*/
+/* line 4, ../sass/elements/_index.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+[hidden],
+template {
+  display: none; }

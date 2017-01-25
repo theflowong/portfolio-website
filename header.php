@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html xml:lang="en" lang="en">
 	<head>
+		<title>Flo Wong: Portfolio Website</title>
+
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="p:domain_verify" content="b1f215d4c138a3e2c595ef85d385fada"/>
-
-		<title>Flo Wong: Portfolio Website</title>
-
+		<meta name="p:domain_verify" content="b1f215d4c138a3e2c595ef85d385fada">
+		
 		<!--shortcut icon; should make new one-->
 		<link rel = "shortcut icon" href = "img/flo.ico" type="image/x-icon" />
 

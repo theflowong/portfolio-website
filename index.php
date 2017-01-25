@@ -1,6 +1,8 @@
 <?php include "header.php";?>
 
 	<div id = "container"> <!-- from original index -->
+
+
 		<div id = "content">
 
 			<div class="portfolioFilter">

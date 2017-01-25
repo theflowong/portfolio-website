@@ -7,6 +7,7 @@ CSS created by Florence Wong :);
 /*--------------------begin WordPress stuff--------------------*/
 /*				(just in case I want to use it)				*/
 /* line 4, ../sass/elements/_index.scss */
+/* line 4, ../sass/settings/_wordpress.scss */
 article,
 aside,
 details,
@@ -22,7 +23,7 @@ section,
 summary {
   display: block; }
 
-/* line 20, ../sass/elements/_index.scss */
+/* line 20, ../sass/settings/_wordpress.scss */
 audio,
 canvas,
 progress,
@@ -30,30 +31,139 @@ video {
   display: inline-block;
   vertical-align: baseline; }
 
-/* line 28, ../sass/elements/_index.scss */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-/* line 33, ../sass/elements/_index.scss */
+/* line 27, ../sass/settings/_wordpress.scss */
 [hidden],
 template {
   display: none; }
 
-/*--------------------end WordPress--------------------*/
-/* line 43, ../sass/elements/_index.scss */
+/*
+ * Fix
+ * Version 0.1.1
+ * https://github.com/jaydenseric/Fix
+*/
+/* line 6, ../sass/settings/_helpers.scss */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 13, ../sass/settings/_helpers.scss */
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: sans-serif; }
+
+/* line 18, ../sass/settings/_helpers.scss */
+iframe {
+  border: 0; }
+
+/* line 21, ../sass/settings/_helpers.scss */
+main {
+  display: block; }
+
+/* line 24, ../sass/settings/_helpers.scss */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0; }
+
+/* line 30, ../sass/settings/_helpers.scss */
+li {
+  display: block; }
+
+/* line 33, ../sass/settings/_helpers.scss */
+dl {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 37, ../sass/settings/_helpers.scss */
+dd {
+  margin-left: 0; }
+
+/* line 40, ../sass/settings/_helpers.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit; }
+
+/* line 50, ../sass/settings/_helpers.scss */
+blockquote {
+  margin: 0;
+  padding: 0; }
+
+/* line 54, ../sass/settings/_helpers.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 58, ../sass/settings/_helpers.scss */
+sup {
+  position: relative;
+  top: -.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0; }
+
+/* line 65, ../sass/settings/_helpers.scss */
+strong {
+  font-weight: bold; }
+
+/* line 68, ../sass/settings/_helpers.scss */
+figure {
+  margin: 0; }
+
+/* line 71, ../sass/settings/_helpers.scss */
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+/* line 77, ../sass/settings/_helpers.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 81, ../sass/settings/_helpers.scss */
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+  overflow: visible; }
+
+/* line 94, ../sass/settings/_helpers.scss */
+::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 5, ../sass/settings/_index.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 49, ../sass/elements/_index.scss */
+/* line 1, ../sass/elements/_index.scss */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-/* line 55, ../sass/elements/_index.scss */
+/* line 7, ../sass/elements/_index.scss */
 body {
   /*background-image: url("feet.jpg");
   background-size: cover;
@@ -69,7 +179,7 @@ body {
   overflow-x: hidden; }
 
 /*--------------------Links--------------------*/
-/* line 70, ../sass/elements/_index.scss */
+/* line 22, ../sass/elements/_index.scss */
 a {
   color: #00a078;
   text-decoration: none;
@@ -79,18 +189,18 @@ a {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 79, ../sass/elements/_index.scss */
+/* line 31, ../sass/elements/_index.scss */
 a:hover {
   color: orange; }
 
 /*--------------------H Fonts--------------------*/
-/* line 85, ../sass/elements/_index.scss */
+/* line 37, ../sass/elements/_index.scss */
 h1,
 h2 {
   font-family: Unica One, Voltaire, Corbel, Helvetica, Arial;
   text-align: center; }
 
-/* line 91, ../sass/elements/_index.scss */
+/* line 43, ../sass/elements/_index.scss */
 h2 {
   font-size: 30px;
   -webkit-transition: all 1s ease;
@@ -100,11 +210,11 @@ h2 {
   transition: all 1s ease;
   color: #00a078; }
 
-/* line 101, ../sass/elements/_index.scss */
+/* line 53, ../sass/elements/_index.scss */
 h2:hover {
   font-size: 35px; }
 
-/* line 105, ../sass/elements/_index.scss */
+/* line 57, ../sass/elements/_index.scss */
 h3, h4 {
   font-family: Open Sans, Helvetica;
   text-align: center;
@@ -112,11 +222,11 @@ h3, h4 {
   line-height: 1.4em;
   text-align: left; }
 
-/* line 113, ../sass/elements/_index.scss */
+/* line 65, ../sass/elements/_index.scss */
 ul {
   text-align: left; }
 
-/* line 2, ../sass/objects/_site-header.scss */
+/* line 2, ../sass/site/_header.scss */
 #header {
   background-color: #fafafa;
   /*background-image: url("feet.jpg");*/
@@ -153,7 +263,7 @@ ul {
   /* Safari */
   justify-content: center; }
 
-/* line 37, ../sass/objects/_site-header.scss */
+/* line 37, ../sass/site/_header.scss */
 #title_florencewong,
 #title_flowong {
   position: absolute;
@@ -167,39 +277,39 @@ ul {
   -o-transition: all .5s ease;
   transition: all .5s ease; }
 
-/* line 51, ../sass/objects/_site-header.scss */
+/* line 51, ../sass/site/_header.scss */
 #title_florencewong:hover,
 #title_flowong:hover {
   /* color: rgb(255,190,120); */
   /* faint orange */
   color: #faa03c; }
 
-/* line 58, ../sass/objects/_site-header.scss */
+/* line 58, ../sass/site/_header.scss */
 #title_flowong {
   display: block; }
 
-/* line 61, ../sass/objects/_site-header.scss */
+/* line 61, ../sass/site/_header.scss */
 #title_florencewong {
   display: none; }
 
 @media only screen and (min-width: 955px) {
-  /* line 66, ../sass/objects/_site-header.scss */
+  /* line 66, ../sass/site/_header.scss */
   #title_flowong {
     display: none; }
 
-  /* line 69, ../sass/objects/_site-header.scss */
+  /* line 69, ../sass/site/_header.scss */
   #title_florencewong {
     display: block; } }
 /*--------------------Menu / Navigation--------------------*/
 /*----------begin computer menu----------*/
-/* line 4, ../sass/objects/_nav.scss */
+/* line 4, ../sass/site/_nav.scss */
 .nav {
   position: absolute;
   right: 5%;
   display: inline-block;
   z-index: 1; }
 
-/* line 11, ../sass/objects/_nav.scss */
+/* line 11, ../sass/site/_nav.scss */
 .nav-list {
   /* margin: 0px 20px 0px 300px; */
   /* top right bottom left */
@@ -211,7 +321,7 @@ ul {
   letter-spacing: 2px;
   background-color: rgba(250, 250, 250, 0.9); }
 
-/* line 23, ../sass/objects/_nav.scss */
+/* line 23, ../sass/site/_nav.scss */
 .nav-list .nav-item {
   display: inline-block;
   text-transform: lowercase;
@@ -219,7 +329,7 @@ ul {
   zoom: 1;
   /* see what this means */ }
 
-/* line 30, ../sass/objects/_nav.scss */
+/* line 30, ../sass/site/_nav.scss */
 .nav-list .nav-item a {
   display: inline-block;
   padding: 5px 20px;
@@ -233,20 +343,20 @@ ul {
   -o-transition: all .2s ease;
   transition: all .2s ease; }
 
-/* line 43, ../sass/objects/_nav.scss */
+/* line 43, ../sass/site/_nav.scss */
 .nav-list .nav-item a:hover {
   font-weight: normal;
   font-size: 20px;
   color: orange; }
 
 /* selected page */
-/* line 50, ../sass/objects/_nav.scss */
+/* line 50, ../sass/site/_nav.scss */
 .nav-list .selected {
   text-transform: uppercase;
   color: #82f0d2; }
 
 /* dropdown ---- REVISION: make everything drop down centered vertically */
-/* line 56, ../sass/objects/_nav.scss */
+/* line 56, ../sass/site/_nav.scss */
 .nav-list ul {
   display: none;
   /* blank dropdown without hover */
@@ -262,13 +372,13 @@ ul {
   width: 220px; }
 
 /* setting style of all UL elements that are children of .nav-item on hover*/
-/* line 69, ../sass/objects/_nav.scss */
+/* line 69, ../sass/site/_nav.scss */
 .nav-list .nav-item:hover > ul {
   display: block;
   font-size: 16px;
   background-color: rgba(250, 250, 250, 0.9); }
 
-/* line 74, ../sass/objects/_nav.scss */
+/* line 74, ../sass/site/_nav.scss */
 .nav-list .sub:hover {
   /* .sub for dropdown submenu items */
   font-size: 16px;
@@ -278,13 +388,13 @@ ul {
   left: auto;
   right: 0; }
 
-/* line 81, ../sass/objects/_nav.scss */
+/* line 81, ../sass/site/_nav.scss */
 .nav-list ul.last {
   /* do something so that last dropdown will fit?? */ }
 
 /* end dropdown */
 /*----------mobile menu----------*/
-/* line 88, ../sass/objects/_nav.scss */
+/* line 88, ../sass/site/_nav.scss */
 .nav-mobile {
   display: none;
   /* hide from browsers that don't support media queries */
@@ -299,11 +409,11 @@ ul {
   -moz-border-radius: 5px; }
 
 @media only screen and (min-width: 768px) {
-  /* line 102, ../sass/objects/_nav.scss */
+  /* line 102, ../sass/site/_nav.scss */
   .nav-mobile {
     right: 5%; } }
 @media only screen and (max-width: 768px) {
-  /* line 108, ../sass/objects/_nav.scss */
+  /* line 108, ../sass/site/_nav.scss */
   .nav-mobile {
     display: block;
     /* show .nav-mobile icon */
@@ -313,43 +423,43 @@ ul {
     -o-transition: all .2s ease;
     transition: all .2s ease; }
 
-  /* line 116, ../sass/objects/_nav.scss */
+  /* line 116, ../sass/site/_nav.scss */
   .nav-mobile:hover {
     color: #82f0d2; }
 
-  /* line 119, ../sass/objects/_nav.scss */
+  /* line 119, ../sass/site/_nav.scss */
   .nav {
     /*width: 100%;*/
     /* don't cover up title link */
     padding: 40px 0 0; }
 
-  /* line 124, ../sass/objects/_nav.scss */
+  /* line 124, ../sass/site/_nav.scss */
   .nav-list {
     display: none;
     /* hide menu list */ }
 
-  /* line 127, ../sass/objects/_nav.scss */
+  /* line 127, ../sass/site/_nav.scss */
   .nav-item {
     width: 100%;
     float: none; }
 
-  /* line 131, ../sass/objects/_nav.scss */
+  /* line 131, ../sass/site/_nav.scss */
   .nav-item a {
     padding: 10px; }
 
-  /* line 134, ../sass/objects/_nav.scss */
+  /* line 134, ../sass/site/_nav.scss */
   .nav-item:first-child a {
     border-radius: 5px 0 0; }
 
-  /* line 137, ../sass/objects/_nav.scss */
+  /* line 137, ../sass/site/_nav.scss */
   .nav-item:last-child a {
     border-radius: 0 0 5px 5px; }
 
-  /* line 140, ../sass/objects/_nav.scss */
+  /* line 140, ../sass/site/_nav.scss */
   .nav-active {
     display: block; }
 
-  /* line 143, ../sass/objects/_nav.scss */
+  /* line 143, ../sass/site/_nav.scss */
   .nav-mobile-open {
     border-radius: 5px 5px 0 0;
     /* for rounded border corners */
@@ -358,7 +468,7 @@ ul {
 /*----------end mobile menu----------*/
 /*--------------------end Menu--------------------*/
 /*--------------------Footer--------------------*/
-/* line 3, ../sass/objects/_site-footer.scss */
+/* line 3, ../sass/site/_footer.scss */
 #footer {
   clear: both;
   padding: 0px 0px;
@@ -376,19 +486,19 @@ ul {
   width: 100%;
   letter-spacing: 1.5px; }
 
-/* line 21, ../sass/objects/_site-footer.scss */
+/* line 21, ../sass/site/_footer.scss */
 ul.media {
   list-style-type: none;
   margin: 0;
   padding-left: 5%; }
 
-/* line 26, ../sass/objects/_site-footer.scss */
+/* line 26, ../sass/site/_footer.scss */
 ul.media li {
   float: left;
   position: relative;
   padding: 13px 1%; }
 
-/* line 31, ../sass/objects/_site-footer.scss */
+/* line 31, ../sass/site/_footer.scss */
 ul.media li a.contact_icon {
   display: block;
   color: rgba(84, 84, 84, 0.75);
@@ -400,11 +510,11 @@ ul.media li a.contact_icon {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 43, ../sass/objects/_site-footer.scss */
+/* line 43, ../sass/site/_footer.scss */
 ul.media li a.contact_icon:hover {
   color: teal; }
 
-/* line 47, ../sass/objects/_site-footer.scss */
+/* line 47, ../sass/site/_footer.scss */
 #copyright {
   display: block;
   float: right;
@@ -421,19 +531,19 @@ ul.media li a.contact_icon:hover {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 64, ../sass/objects/_site-footer.scss */
+/* line 64, ../sass/site/_footer.scss */
 #copyright:hover {
   color: black; }
 
 /*--------------------for specific art project pages--------------------*/
-/* line 2, ../sass/objects/_scroll-gallery.scss */
+/* line 2, ../sass/page/_scroll-gallery.scss */
 #content_art {
   white-space: nowrap;
   height: 500px;
   overflow-x: scroll;
   overflow-y: hidden; }
 
-/* line 9, ../sass/objects/_scroll-gallery.scss */
+/* line 9, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_container {
   display: inline-block;
   position: relative;
@@ -441,7 +551,7 @@ ul.media li a.contact_icon:hover {
   width: 100%; }
 
 /* DEFAULT (mobile): make scroll gallery text and photos on top of each other? */
-/* line 17, ../sass/objects/_scroll-gallery.scss */
+/* line 17, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_text {
   vertical-align: top;
   /*float: left;*/
@@ -449,7 +559,7 @@ ul.media li a.contact_icon:hover {
   padding: 40px;
   background-color: rgba(250, 250, 250, 0.9); }
 
-/* line 25, ../sass/objects/_scroll-gallery.scss */
+/* line 25, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_container .title {
   white-space: normal;
   font-family: Selima;
@@ -457,27 +567,27 @@ ul.media li a.contact_icon:hover {
   letter-spacing: 1px;
   margin-bottom: 20px; }
 
-/* line 33, ../sass/objects/_scroll-gallery.scss */
+/* line 33, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_container .title-main {
   font-family: Selima;
   font-size: 32px;
   padding-bottom: 12px; }
 
-/* line 39, ../sass/objects/_scroll-gallery.scss */
+/* line 39, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_container .title-info {
   font-size: 14px;
   font-family: Libre Baskerville;
   font-style: italic;
   letter-spacing: 0.6px; }
 
-/* line 46, ../sass/objects/_scroll-gallery.scss */
+/* line 46, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_container .description {
   text-align: left;
   font-family: 'Libre Baskerville', Open Sans, Helvetica, sans-serif;
   /*font-size: 16px;
   line-height: 28px;*/ }
 
-/* line 53, ../sass/objects/_scroll-gallery.scss */
+/* line 53, ../sass/page/_scroll-gallery.scss */
 #art_title_filler {
   position: absolute;
   left: 0;
@@ -486,7 +596,7 @@ ul.media li a.contact_icon:hover {
   padding: 0;
   background-color: rgba(250, 250, 250, 0.9); }
 
-/* line 62, ../sass/objects/_scroll-gallery.scss */
+/* line 62, ../sass/page/_scroll-gallery.scss */
 #art_title {
   padding: 40px;
   white-space: normal;
@@ -495,13 +605,13 @@ ul.media li a.contact_icon:hover {
   font-size: 26px;
   letter-spacing: 1px; }
 
-/* line 72, ../sass/objects/_scroll-gallery.scss */
+/* line 72, ../sass/page/_scroll-gallery.scss */
 #art_title h3 {
   /* clean this up (make labels clearer) */
   font-family: Open Sans, Helvetica;
   font-size: 13px; }
 
-/* line 77, ../sass/objects/_scroll-gallery.scss */
+/* line 77, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_art {
   /*vertical-align: top;*/
   /*width: 67%; /* for larger screens (scroll overflow-x setup) */
@@ -511,14 +621,15 @@ ul.media li a.contact_icon:hover {
   overflow-x: scroll;
   overflow-y: hidden; }
 
-/* line 87, ../sass/objects/_scroll-gallery.scss */
+/* line 87, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_art ul {
   padding: 0;
   white-space: nowrap;
   list-style: none;
-  display: block; }
+  display: block;
+  text-align: center; }
 
-/* line 94, ../sass/objects/_scroll-gallery.scss */
+/* line 95, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_art li .art-description {
   text-align: left;
   max-width: 400px;
@@ -528,12 +639,12 @@ ul.media li a.contact_icon:hover {
   overflow-y: scroll;
   font-family: Libre Baskerville; }
 
-/* line 107, ../sass/objects/_scroll-gallery.scss */
+/* line 108, ../sass/page/_scroll-gallery.scss */
 .scroll-gallery_art img {
   width: 90%;
   height: auto; }
 
-/* line 117, ../sass/objects/_scroll-gallery.scss */
+/* line 118, ../sass/page/_scroll-gallery.scss */
 #scroll-gallery_art {
   /*vertical-align: top;*/
   /*width: 67%; /* for larger screens (scroll overflow-x setup) */
@@ -543,18 +654,18 @@ ul.media li a.contact_icon:hover {
   overflow-x: scroll;
   overflow-y: hidden; }
 
-/* line 127, ../sass/objects/_scroll-gallery.scss */
+/* line 128, ../sass/page/_scroll-gallery.scss */
 #scroll-gallery_art ul {
   padding: 0;
   white-space: nowrap;
   list-style: none;
   display: block; }
 
-/* line 134, ../sass/objects/_scroll-gallery.scss */
+/* line 135, ../sass/page/_scroll-gallery.scss */
 #scroll-gallery_art li {
   text-align: center; }
 
-/* line 137, ../sass/objects/_scroll-gallery.scss */
+/* line 138, ../sass/page/_scroll-gallery.scss */
 #scroll-gallery_art img {
   width: 90%;
   height: auto; }
@@ -575,37 +686,37 @@ ul.media li a.contact_icon:hover {
 */
 /* landscape and larger width screens: horizontal-scroll */
 @media only screen and (min-width: 768px) {
-  /* line 163, ../sass/objects/_scroll-gallery.scss */
+  /* line 164, ../sass/page/_scroll-gallery.scss */
   .scroll-gallery_text {
     display: inline-block;
     width: 30%;
     min-width: 300px;
     height: 80vh; }
 
-  /* line 170, ../sass/objects/_scroll-gallery.scss */
+  /* line 171, ../sass/page/_scroll-gallery.scss */
   .scroll-gallery_text .description {
     height: 70%;
     /* maybe have a more elegant responsive solution */
     overflow-y: scroll; }
 
-  /* line 174, ../sass/objects/_scroll-gallery.scss */
+  /* line 175, ../sass/page/_scroll-gallery.scss */
   .scroll-gallery_art {
     vertical-align: top;
     display: inline-block;
     width: 67%;
     height: 80vh; }
 
-  /* line 180, ../sass/objects/_scroll-gallery.scss */
+  /* line 181, ../sass/page/_scroll-gallery.scss */
   .scroll-gallery_art ul {
     margin-right: -999em; }
 
-  /* line 184, ../sass/objects/_scroll-gallery.scss */
+  /* line 185, ../sass/page/_scroll-gallery.scss */
   .scroll-gallery_art li {
     height: 80vh;
     float: left;
     display: inline-block; }
 
-  /* line 190, ../sass/objects/_scroll-gallery.scss */
+  /* line 191, ../sass/page/_scroll-gallery.scss */
   .scroll-gallery_art img {
     display: inline;
     max-height: 100%;
@@ -615,24 +726,24 @@ ul.media li a.contact_icon:hover {
     object-fit: contain;
     margin-right: 6px; }
 
-  /* line 198, ../sass/objects/_scroll-gallery.scss */
+  /* line 199, ../sass/page/_scroll-gallery.scss */
   #scroll-gallery_art {
     vertical-align: top;
     display: inline-block;
     width: 67%;
     height: 80vh; }
 
-  /* line 204, ../sass/objects/_scroll-gallery.scss */
+  /* line 205, ../sass/page/_scroll-gallery.scss */
   #scroll-gallery_art ul {
     margin-right: -999em; }
 
-  /* line 208, ../sass/objects/_scroll-gallery.scss */
+  /* line 209, ../sass/page/_scroll-gallery.scss */
   #scroll-gallery_art li {
     height: 80vh;
     float: left;
     display: inline-block; }
 
-  /* line 214, ../sass/objects/_scroll-gallery.scss */
+  /* line 215, ../sass/page/_scroll-gallery.scss */
   #scroll-gallery_art img {
     display: inline;
     max-height: 100%;
@@ -791,7 +902,7 @@ a.scroll-button:hover > span {
   background-color: #fafafa;
   line-height: 1.7em; }
 
-/* line 157, ../sass/overrides/_index.scss */
+/* line 158, ../sass/overrides/_index.scss */
 #content {
   padding: 0px;
   background-color: none;
@@ -799,7 +910,7 @@ a.scroll-button:hover > span {
   height: 100%;
   margin: 0; }
 
-/* line 170, ../sass/overrides/_index.scss */
+/* line 171, ../sass/overrides/_index.scss */
 #parallax_portrait {
   background-image: url("../img/oil/selfportrait_4.jpg");
   height: 500px;
@@ -808,7 +919,7 @@ a.scroll-button:hover > span {
   background-attachment: fixed; }
 
 /*--------------------For text layout--------------------*/
-/* line 180, ../sass/overrides/_index.scss */
+/* line 181, ../sass/overrides/_index.scss */
 .main-text {
   width: 552px;
   min-width: 232px;
@@ -821,39 +932,39 @@ a.scroll-button:hover > span {
   color: #545454; }
 
 @media only screen and (min-width: 815px) {
-  /* line 192, ../sass/overrides/_index.scss */
+  /* line 193, ../sass/overrides/_index.scss */
   .main-text {
     width: 66%;
     max-width: 600px;
     padding: 100px 50px; } }
 /*--------------------End text layout--------------------*/
 /*--------------------random effects on About page--------------------*/
-/* line 203, ../sass/overrides/_index.scss */
+/* line 204, ../sass/overrides/_index.scss */
 .random, .random2, .showing_off, .whoa {
   color: #545454; }
 
-/* line 207, ../sass/overrides/_index.scss */
+/* line 208, ../sass/overrides/_index.scss */
 .random:hover, .random2:hover, .showing_off:hover {
   font-size: 30px;
   font-family: Futura; }
 
-/* line 211, ../sass/overrides/_index.scss */
+/* line 212, ../sass/overrides/_index.scss */
 p:hover .random {
   color: #1e45c8; }
 
-/* line 215, ../sass/overrides/_index.scss */
+/* line 216, ../sass/overrides/_index.scss */
 p:hover .random2 {
   color: #32c814; }
 
-/* line 219, ../sass/overrides/_index.scss */
+/* line 220, ../sass/overrides/_index.scss */
 p:hover .showing_off {
   color: #c826fa; }
 
-/* line 223, ../sass/overrides/_index.scss */
+/* line 224, ../sass/overrides/_index.scss */
 span.whoa:hover {
   font-style: bold; }
 
-/* line 227, ../sass/overrides/_index.scss */
+/* line 228, ../sass/overrides/_index.scss */
 span.secret {
   display: none;
   -webkit-transition: all 1s ease;
@@ -862,14 +973,14 @@ span.secret {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 236, ../sass/overrides/_index.scss */
+/* line 237, ../sass/overrides/_index.scss */
 span.whoa:hover span.secret {
   display: inline;
   font-family: Futura; }
 
 /*--------------------end random effects on About page--------------------*/
 /*--------------------contact--------------------*/
-/* line 245, ../sass/overrides/_index.scss */
+/* line 246, ../sass/overrides/_index.scss */
 #contact-filler {
   float: center;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/oil/selfportrait_4.jpg");
@@ -880,35 +991,35 @@ span.whoa:hover span.secret {
   background-attachment: fixed;
   color: #fafafa; }
 
-/* line 256, ../sass/overrides/_index.scss */
+/* line 257, ../sass/overrides/_index.scss */
 #contact-filler h2, #contact-filler .main-text {
   color: #fafafa; }
 
-/* line 260, ../sass/overrides/_index.scss */
+/* line 261, ../sass/overrides/_index.scss */
 #contact-filler .contact-form__container {
   padding: 10px 0;
   text-align: right; }
 
-/* line 265, ../sass/overrides/_index.scss */
+/* line 266, ../sass/overrides/_index.scss */
 #contact-filler .contact-form__form {
   width: 90%; }
 
 /* media query for contact-form:
 		under width: 485, have on separate rows
  		over width: 485, have on same row */
-/* line 272, ../sass/overrides/_index.scss */
+/* line 273, ../sass/overrides/_index.scss */
 #contact-filler .contact_icon {
   color: white;
   padding: 5px;
   font-size: 26px; }
 
-/* line 278, ../sass/overrides/_index.scss */
+/* line 279, ../sass/overrides/_index.scss */
 #contact-filler .contact_icon:hover {
   color: orange; }
 
 /*--------------------end contact--------------------*/
 /*-------------------- Processing --------------------*/
-/* line 285, ../sass/overrides/_index.scss */
+/* line 286, ../sass/overrides/_index.scss */
 .processing-canvas {
   margin: auto;
   display: block;
@@ -916,31 +1027,31 @@ span.whoa:hover span.secret {
 
 /*-------------------- End Processing --------------------*/
 /* Read More button: from http://cssdeck.com/labs/css-only-showhide */
-/* line 298, ../sass/overrides/_index.scss */
+/* line 299, ../sass/overrides/_index.scss */
 article {
   /*margin-bottom: 3rem;*/
   position: relative;
   *zoom: 1; }
 
-/* line 304, ../sass/overrides/_index.scss */
+/* line 305, ../sass/overrides/_index.scss */
 article:before, article:after {
   content: "";
   display: table; }
 
-/* line 309, ../sass/overrides/_index.scss */
+/* line 310, ../sass/overrides/_index.scss */
 article:after {
   clear: both; }
 
-/* line 311, ../sass/overrides/_index.scss */
+/* line 312, ../sass/overrides/_index.scss */
 section:first-of-type {
   /*float: right;*/ }
 
-/* line 315, ../sass/overrides/_index.scss */
+/* line 316, ../sass/overrides/_index.scss */
 section:last-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 320, ../sass/overrides/_index.scss */
+/* line 321, ../sass/overrides/_index.scss */
 section {
   -webkit-transition: .125s linear;
   -moz-transition: .125s linear;
@@ -948,11 +1059,11 @@ section {
   -o-transition: .125s linear;
   transition: .125s linear; }
 
-/* line 328, ../sass/overrides/_index.scss */
+/* line 329, ../sass/overrides/_index.scss */
 section h3 {
   margin: 0; }
 
-/* line 332, ../sass/overrides/_index.scss */
+/* line 333, ../sass/overrides/_index.scss */
 input[type=checkbox] {
   border: 0;
   clip: rect(0 0 0 0);
@@ -963,7 +1074,7 @@ input[type=checkbox] {
   padding: 0;
   position: absolute; }
 
-/* line 343, ../sass/overrides/_index.scss */
+/* line 344, ../sass/overrides/_index.scss */
 [for="read_more"] {
   position: absolute;
   bottom: -3rem;
@@ -978,28 +1089,28 @@ input[type=checkbox] {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 358, ../sass/overrides/_index.scss */
+/* line 359, ../sass/overrides/_index.scss */
 [for="read_more"]:hover {
   background: rgba(30, 180, 200, 0.5);
   color: white; }
 
-/* line 363, ../sass/overrides/_index.scss */
+/* line 364, ../sass/overrides/_index.scss */
 [for="read_more"] span:last-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 368, ../sass/overrides/_index.scss */
+/* line 369, ../sass/overrides/_index.scss */
 input[type=checkbox]:checked ~ section {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 374, ../sass/overrides/_index.scss */
+/* line 375, ../sass/overrides/_index.scss */
 input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 379, ../sass/overrides/_index.scss */
+/* line 380, ../sass/overrides/_index.scss */
 input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
   display: block;
   visibility: visible; }

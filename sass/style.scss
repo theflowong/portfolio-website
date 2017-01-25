@@ -6,6 +6,8 @@ CSS created by Florence Wong :);
 //@import "tools/index"; // default mixins and functions, e.g. clearfix, page-nav-links, entypo-icons, bg-gradient
 //@import "general/index"; // ground-zero styles such as normalize, resets, box-sizing
 @import "elements/index"; // unclassed HTML elements: body, p, a
-@import "objects/index"; // cosmetic-free design patters: e.g. page-header, page-footer, woman-card
-@import "components/index"; // designed components, chunks of UI: e.g. jump, feature-section, feature-list, page-body, base-link
+@import "site/index"; // what's on every page: header, footer, etc.
+//@import "objects/index"; // cosmetic-free design patters: e.g. page-header, page-footer, woman-card
+@import "page/index";
+//@import "components/index"; // designed components, chunks of UI: e.g. jump, feature-section, feature-list, page-body, base-link
 @import "overrides/index"; // helpers and overrides (ideally empty)
