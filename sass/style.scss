@@ -3,8 +3,8 @@ CSS created by Florence Wong :);
 --------------------*/
 
 @import "settings/index"; // global variables, configuration switches, font loading
-@import "tools/index"; // default mixins and functions, e.g. clearfix, page-nav-links, entypo-icons, bg-gradient
-@import "general/index"; // ground-zero styles such as normalize, resets, box-sizing
+//@import "tools/index"; // default mixins and functions, e.g. clearfix, page-nav-links, entypo-icons, bg-gradient
+//@import "general/index"; // ground-zero styles such as normalize, resets, box-sizing
 @import "elements/index"; // unclassed HTML elements: body, p, a
 @import "objects/index"; // cosmetic-free design patters: e.g. page-header, page-footer, woman-card
 @import "components/index"; // designed components, chunks of UI: e.g. jump, feature-section, feature-list, page-body, base-link
