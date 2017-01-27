@@ -7,7 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="p:domain_verify" content="b1f215d4c138a3e2c595ef85d385fada">
-		
+
 		<!--shortcut icon; should make new one-->
 		<link rel = "shortcut icon" href = "img/flo.ico" type="image/x-icon" />
 
@@ -68,22 +68,22 @@
 
 	<body>
 		<div id = "header">
-			<h1><a id="title_florencewong" href="index.php">FLOrence Wong</a></h1>
-			<h1><a id="title_flowong" href="index.php">Flo Wong</a></h1>
+				<h1><a id="title_florencewong" href="index.php">FLOrence Wong</a></h1>
+				<h1><a id="title_flowong" href="index.php">Flo Wong</a></h1>
 
-			<!-- Navigation -->
-			<nav class="nav">
-				<?php include "menu.php"; ?>
-				<div class="nav-mobile"><i class="fa fa-bars"></i>
-					<!--<input class="checkbox-toggle" type="checkbox" />
-					<div class="hamburger">
-						<div id="menu_icon"></div>
+				<!-- Navigation -->
+				<nav class="nav">
+					<?php include "menu.php"; ?>
+					<div class="nav-mobile"><i class="fa fa-bars"></i>
+						<!--<input class="checkbox-toggle" type="checkbox" />
+						<div class="hamburger">
+							<div id="menu_icon"></div>
+						</div>
+						<div class="menu">
+							<div id="expand-bg"><div id="ease-in-menu">
+								<!-<php include "menu.php"; ?>->
+							</div></div>
+						</div>-->
 					</div>
-					<div class="menu">
-						<div id="expand-bg"><div id="ease-in-menu">
-							<!-<php include "menu.php"; ?>->
-						</div></div>
-					</div>-->
-				</div>
-			</nav>
+				</nav>
 		</div>

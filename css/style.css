@@ -263,7 +263,7 @@ ul {
   /* Safari */
   justify-content: center; }
 
-/* line 37, ../sass/site/_header.scss */
+/* line 35, ../sass/site/_header.scss */
 #title_florencewong,
 #title_flowong {
   position: absolute;
@@ -277,27 +277,27 @@ ul {
   -o-transition: all .5s ease;
   transition: all .5s ease; }
 
-/* line 51, ../sass/site/_header.scss */
+/* line 49, ../sass/site/_header.scss */
 #title_florencewong:hover,
 #title_flowong:hover {
   /* color: rgb(255,190,120); */
   /* faint orange */
   color: #faa03c; }
 
-/* line 58, ../sass/site/_header.scss */
+/* line 56, ../sass/site/_header.scss */
 #title_flowong {
   display: block; }
 
-/* line 61, ../sass/site/_header.scss */
+/* line 59, ../sass/site/_header.scss */
 #title_florencewong {
   display: none; }
 
 @media only screen and (min-width: 955px) {
-  /* line 66, ../sass/site/_header.scss */
+  /* line 64, ../sass/site/_header.scss */
   #title_flowong {
     display: none; }
 
-  /* line 69, ../sass/site/_header.scss */
+  /* line 67, ../sass/site/_header.scss */
   #title_florencewong {
     display: block; } }
 /*--------------------Menu / Navigation--------------------*/
