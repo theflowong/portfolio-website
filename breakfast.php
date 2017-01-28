@@ -42,12 +42,12 @@
 
 				<div class="scroll-gallery_art">
 					<ul>
-							<li><img class="img_hover" src="ceramics/breakfast.jpg" height="100%" border="0" /></li>
-							<li><img class="img_hover" src="ceramics/breakfast1.jpg" height="100%" border="0" /></li>
-							<li><img class="img_hover" src="ceramics/breakfast2.jpg" height="100%" border="0" /></li>
-							<li><img class="img_hover" src="ceramics/breakfast3.jpg" height="100%" border="0" /></li>
-							<li><img class="img_hover" src="ceramics/breakfast4.jpg" height="100%" border="0" /></li>
-							<li><img class="img_hover" src="ceramics/breakfast5.jpg" height="100%" border="0" /></li>
+							<li><img class="img_hover" src="img/ceramics/breakfast.jpg" height="100%" border="0" /></li>
+							<li><img class="img_hover" src="img/ceramics/breakfast1.jpg" height="100%" border="0" /></li>
+							<li><img class="img_hover" src="img/ceramics/breakfast2.jpg" height="100%" border="0" /></li>
+							<li><img class="img_hover" src="img/ceramics/breakfast3.jpg" height="100%" border="0" /></li>
+							<li><img class="img_hover" src="img/ceramics/breakfast4.jpg" height="100%" border="0" /></li>
+							<li><img class="img_hover" src="img/ceramics/breakfast5.jpg" height="100%" border="0" /></li>
 					</ul>
 				</div>
 			</div>
