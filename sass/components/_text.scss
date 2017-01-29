@@ -1,0 +1,22 @@
+/*--------------------For text layout--------------------*/
+
+.main-text {
+	width: 552px;
+	min-width: 232px;
+	max-width: 100%;
+	padding: 100px 12%;
+	margin-left: auto;
+	margin-right: auto; /* to center text */
+	text-align: left;
+	color: rgb(84,84,84);
+}
+
+	@media only screen and (min-width: 815px) {
+		.main-text {
+			width: 66%;
+			max-width: 600px;
+			padding: 100px 50px;
+		}
+	}
+
+/*--------------------End text layout--------------------*/
