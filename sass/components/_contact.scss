@@ -1,0 +1,39 @@
+
+/*--------------------contact--------------------*/
+#contact-filler {
+	float: center;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/oil/selfportrait_4.jpg');
+	background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/oil/selfportrait_4.jpg');
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/oil/selfportrait_4.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: rgb(250,250,250);
+}
+
+#contact-filler h2, #contact-filler .main-text {
+	color: rgb(250,250,250);
+}
+
+#contact-filler .contact-form__container {
+	padding: 10px 0;
+	text-align: right;
+}
+
+#contact-filler .contact-form__form {
+	width: 90%;
+}
+/* media query for contact-form:
+		under width: 485, have on separate rows
+ 		over width: 485, have on same row */
+
+#contact-filler .contact_icon {
+	color: white;
+	padding: 5px;
+	font-size: 26px;
+}
+
+#contact-filler .contact_icon:hover {
+	color: orange;
+}
+/*--------------------end contact--------------------*/

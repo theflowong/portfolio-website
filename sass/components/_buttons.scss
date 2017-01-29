@@ -142,3 +142,94 @@ a.scroll-button:hover > span {
 	/* !!! background-color changes, but not "color".
 	find out what causes this line color */
 }
+
+
+
+/* Read More button: from http://cssdeck.com/labs/css-only-showhide */
+
+	article {
+	    /*margin-bottom: 3rem;*/
+	    position: relative;
+	    *zoom: 1;
+	}
+
+	article:before, article:after {
+	    content: "";
+	    display: table;
+	}
+
+	article:after { clear: both }
+
+	section:first-of-type {
+	    /*float: right;*/
+	}
+
+	section:last-of-type {
+	    display: none;
+	    visibility: hidden;
+	}
+
+	section {
+	    -webkit-transition: .125s linear;
+	    -moz-transition: .125s linear;
+	    -ms-transition: .125s linear;
+	    -o-transition: .125s linear;
+	    transition: .125s linear;
+	}
+
+	section h3 {
+		margin: 0;
+	}
+
+	input[type=checkbox] {
+	    border: 0;
+	    clip: rect(0 0 0 0);
+	    height: 1px;
+	    width: 1px;
+	    margin: -1px;
+	    overflow: hidden;
+	    padding: 0;
+	    position: absolute;
+	}
+
+	[for="read_more"] {
+	    position: absolute;
+	    bottom: -3rem;
+	    left: 0;
+	    width: 90%;
+	    text-align: center;
+	    padding: 0.65rem;
+	    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+	    -webkit-transition: all 1s ease;
+	    -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	    -o-transition: all 1s ease;
+	    transition: all 1s ease;
+	}
+
+	[for="read_more"]:hover {
+	    background: rgba(30,180,200,.5);
+	    color: rgb(255,255,255);
+	}
+
+	[for="read_more"] span:last-of-type {
+	    display: none;
+	    visibility: hidden;
+	}
+
+	input[type=checkbox]:checked ~ section {
+	    display: block;
+	    visibility: visible;
+	    width: 100%;
+	}
+
+	input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+	    display: none;
+	    visibility: hidden;
+	}
+
+	input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+	    display: block;
+	    visibility: visible;
+	}
+/* -------------------- end "Read More" styling --------------------*/
