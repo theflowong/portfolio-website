@@ -421,14 +421,14 @@ ul.media li a.contact_icon:hover {
   color: black; }
 
 /*--------------------for specific art project pages--------------------*/
-/* line 2, ../sass/page/_scroll-gallery.scss */
+/* line 2, ../sass/components/_scroll-gallery.scss */
 #content_art {
   white-space: nowrap;
   height: 500px;
   overflow-x: scroll;
   overflow-y: hidden; }
 
-/* line 9, ../sass/page/_scroll-gallery.scss */
+/* line 9, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_container {
   display: inline-block;
   position: relative;
@@ -436,7 +436,7 @@ ul.media li a.contact_icon:hover {
   width: 100%; }
 
 /* DEFAULT (mobile): make scroll gallery text and photos on top of each other? */
-/* line 17, ../sass/page/_scroll-gallery.scss */
+/* line 17, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_text {
   vertical-align: top;
   /*float: left;*/
@@ -444,7 +444,7 @@ ul.media li a.contact_icon:hover {
   padding: 40px;
   background-color: rgba(250, 250, 250, 0.9); }
 
-/* line 25, ../sass/page/_scroll-gallery.scss */
+/* line 25, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_container .title {
   white-space: normal;
   font-family: Selima;
@@ -452,27 +452,27 @@ ul.media li a.contact_icon:hover {
   letter-spacing: 1px;
   margin-bottom: 20px; }
 
-/* line 33, ../sass/page/_scroll-gallery.scss */
+/* line 33, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_container .title-main {
   font-family: Selima;
   font-size: 32px;
   padding-bottom: 12px; }
 
-/* line 39, ../sass/page/_scroll-gallery.scss */
+/* line 39, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_container .title-info {
   font-size: 14px;
   font-family: Libre Baskerville;
   font-style: italic;
   letter-spacing: 0.6px; }
 
-/* line 46, ../sass/page/_scroll-gallery.scss */
+/* line 46, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_container .description {
   text-align: left;
   font-family: 'Libre Baskerville', Open Sans, Helvetica, sans-serif;
   /*font-size: 16px;
   line-height: 28px;*/ }
 
-/* line 53, ../sass/page/_scroll-gallery.scss */
+/* line 53, ../sass/components/_scroll-gallery.scss */
 #art_title_filler {
   position: absolute;
   left: 0;
@@ -481,7 +481,7 @@ ul.media li a.contact_icon:hover {
   padding: 0;
   background-color: rgba(250, 250, 250, 0.9); }
 
-/* line 62, ../sass/page/_scroll-gallery.scss */
+/* line 62, ../sass/components/_scroll-gallery.scss */
 #art_title {
   padding: 40px;
   white-space: normal;
@@ -490,13 +490,13 @@ ul.media li a.contact_icon:hover {
   font-size: 26px;
   letter-spacing: 1px; }
 
-/* line 72, ../sass/page/_scroll-gallery.scss */
+/* line 72, ../sass/components/_scroll-gallery.scss */
 #art_title h3 {
   /* clean this up (make labels clearer) */
   font-family: Open Sans, Helvetica;
   font-size: 13px; }
 
-/* line 77, ../sass/page/_scroll-gallery.scss */
+/* line 77, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_art {
   /*vertical-align: top;*/
   /*width: 67%; /* for larger screens (scroll overflow-x setup) */
@@ -506,7 +506,7 @@ ul.media li a.contact_icon:hover {
   overflow-x: scroll;
   overflow-y: hidden; }
 
-/* line 87, ../sass/page/_scroll-gallery.scss */
+/* line 87, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_art ul {
   padding: 0;
   white-space: nowrap;
@@ -514,7 +514,7 @@ ul.media li a.contact_icon:hover {
   display: block;
   text-align: center; }
 
-/* line 95, ../sass/page/_scroll-gallery.scss */
+/* line 95, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_art li .art-description {
   text-align: left;
   max-width: 400px;
@@ -524,12 +524,12 @@ ul.media li a.contact_icon:hover {
   overflow-y: scroll;
   font-family: Libre Baskerville; }
 
-/* line 108, ../sass/page/_scroll-gallery.scss */
+/* line 108, ../sass/components/_scroll-gallery.scss */
 .scroll-gallery_art img {
   width: 90%;
   height: auto; }
 
-/* line 118, ../sass/page/_scroll-gallery.scss */
+/* line 118, ../sass/components/_scroll-gallery.scss */
 #scroll-gallery_art {
   /*vertical-align: top;*/
   /*width: 67%; /* for larger screens (scroll overflow-x setup) */
@@ -539,18 +539,18 @@ ul.media li a.contact_icon:hover {
   overflow-x: scroll;
   overflow-y: hidden; }
 
-/* line 128, ../sass/page/_scroll-gallery.scss */
+/* line 128, ../sass/components/_scroll-gallery.scss */
 #scroll-gallery_art ul {
   padding: 0;
   white-space: nowrap;
   list-style: none;
   display: block; }
 
-/* line 135, ../sass/page/_scroll-gallery.scss */
+/* line 135, ../sass/components/_scroll-gallery.scss */
 #scroll-gallery_art li {
   text-align: center; }
 
-/* line 138, ../sass/page/_scroll-gallery.scss */
+/* line 138, ../sass/components/_scroll-gallery.scss */
 #scroll-gallery_art img {
   width: 90%;
   height: auto; }
@@ -571,37 +571,37 @@ ul.media li a.contact_icon:hover {
 */
 /* landscape and larger width screens: horizontal-scroll */
 @media only screen and (min-width: 768px) {
-  /* line 164, ../sass/page/_scroll-gallery.scss */
+  /* line 164, ../sass/components/_scroll-gallery.scss */
   .scroll-gallery_text {
     display: inline-block;
     width: 30%;
     min-width: 300px;
     height: 80vh; }
 
-  /* line 171, ../sass/page/_scroll-gallery.scss */
+  /* line 171, ../sass/components/_scroll-gallery.scss */
   .scroll-gallery_text .description {
     height: 70%;
     /* maybe have a more elegant responsive solution */
     overflow-y: scroll; }
 
-  /* line 175, ../sass/page/_scroll-gallery.scss */
+  /* line 175, ../sass/components/_scroll-gallery.scss */
   .scroll-gallery_art {
     vertical-align: top;
     display: inline-block;
     width: 67%;
     height: 80vh; }
 
-  /* line 181, ../sass/page/_scroll-gallery.scss */
+  /* line 181, ../sass/components/_scroll-gallery.scss */
   .scroll-gallery_art ul {
     margin-right: -999em; }
 
-  /* line 185, ../sass/page/_scroll-gallery.scss */
+  /* line 185, ../sass/components/_scroll-gallery.scss */
   .scroll-gallery_art li {
     height: 80vh;
     float: left;
     display: inline-block; }
 
-  /* line 191, ../sass/page/_scroll-gallery.scss */
+  /* line 191, ../sass/components/_scroll-gallery.scss */
   .scroll-gallery_art img {
     display: inline;
     max-height: 100%;
@@ -611,24 +611,24 @@ ul.media li a.contact_icon:hover {
     object-fit: contain;
     margin-right: 6px; }
 
-  /* line 199, ../sass/page/_scroll-gallery.scss */
+  /* line 199, ../sass/components/_scroll-gallery.scss */
   #scroll-gallery_art {
     vertical-align: top;
     display: inline-block;
     width: 67%;
     height: 80vh; }
 
-  /* line 205, ../sass/page/_scroll-gallery.scss */
+  /* line 205, ../sass/components/_scroll-gallery.scss */
   #scroll-gallery_art ul {
     margin-right: -999em; }
 
-  /* line 209, ../sass/page/_scroll-gallery.scss */
+  /* line 209, ../sass/components/_scroll-gallery.scss */
   #scroll-gallery_art li {
     height: 80vh;
     float: left;
     display: inline-block; }
 
-  /* line 215, ../sass/page/_scroll-gallery.scss */
+  /* line 215, ../sass/components/_scroll-gallery.scss */
   #scroll-gallery_art img {
     display: inline;
     max-height: 100%;
@@ -639,13 +639,60 @@ ul.media li a.contact_icon:hover {
     margin-right: 6px; } }
 /* what was i thinking to do with this? */
 /*--------------------end Scroll gallery (specific art gallery pages) styling--------------------*/
+/*--------------------Container stuff--------------------*/
+/* line 2, ../sass/components/_containers.scss */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 77.8px 0px 60px 0px;
+  color: #545454;
+  background-color: #fafafa;
+  line-height: 1.7em; }
+
+/* line 13, ../sass/components/_containers.scss */
+#content {
+  padding: 0px 30px;
+  background-color: none;
+  max-width: 100%;
+  height: 100%;
+  margin: 0; }
+
+/* line 24, ../sass/components/_containers.scss */
+#parallax_portrait {
+  background-image: url("../img/oil/selfportrait_4.jpg");
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/*--------------------For text layout--------------------*/
+/* line 5, ../sass/overrides/_index.scss */
+.main-text {
+  width: 552px;
+  min-width: 232px;
+  max-width: 100%;
+  padding: 100px 12%;
+  margin-left: auto;
+  margin-right: auto;
+  /* to center text */
+  text-align: left;
+  color: #545454; }
+
+@media only screen and (min-width: 815px) {
+  /* line 17, ../sass/overrides/_index.scss */
+  .main-text {
+    width: 66%;
+    max-width: 600px;
+    padding: 100px 50px; } }
+/*--------------------End text layout--------------------*/
 /*-------------------- BUTTONS --------------------*/
 /*-------------------- Toggle --------------------*/
-/* line 5, ../sass/overrides/_index.scss */
+/* line 33, ../sass/overrides/_index.scss */
 a.toggle-description:hover > img {
   opacity: 0.7; }
 
-/* line 9, ../sass/overrides/_index.scss */
+/* line 37, ../sass/overrides/_index.scss */
 a.toggle-description {
   cursor: pointer; }
 
@@ -689,7 +736,7 @@ a.toggle-description-button {
 
 	*/
 /*-------------------- Scroll Buttons --------------------*/
-/* line 58, ../sass/overrides/_index.scss */
+/* line 86, ../sass/overrides/_index.scss */
 a.scroll-button {
   /* !!! also, only show this with the horizontal gallery */
   position: absolute;
@@ -706,16 +753,16 @@ a.scroll-button {
   padding: 30px;
   background-color: rgba(1, 1, 1, 0.1); }
 
-/* line 74, ../sass/overrides/_index.scss */
+/* line 102, ../sass/overrides/_index.scss */
 a.scroll-left, a.scroll-right {
   top: 50%;
   /* consider making all scroll buttons at bottom */ }
 
-/* line 78, ../sass/overrides/_index.scss */
+/* line 106, ../sass/overrides/_index.scss */
 a.scroll-right {
   right: 15px; }
 
-/* line 82, ../sass/overrides/_index.scss */
+/* line 110, ../sass/overrides/_index.scss */
 a.scroll-down {
   bottom: 0;
   -webkit-transform: translateY(-36px);
@@ -724,7 +771,7 @@ a.scroll-down {
   -o-transform: translateY(-36px);
   transform: translateY(-36px); }
 
-/* line 91, ../sass/overrides/_index.scss */
+/* line 119, ../sass/overrides/_index.scss */
 a.scroll-button span {
   position: absolute;
   float: right;
@@ -741,7 +788,7 @@ a.scroll-button span {
   -o-transition: all .5s ease;
   transition: all .5s ease; }
 
-/* line 109, ../sass/overrides/_index.scss */
+/* line 137, ../sass/overrides/_index.scss */
 a.scroll-left span {
   right: 20%;
   -webkit-transform: rotate(45deg);
@@ -750,7 +797,7 @@ a.scroll-left span {
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 118, ../sass/overrides/_index.scss */
+/* line 146, ../sass/overrides/_index.scss */
 a.scroll-right span {
   right: 40%;
   -webkit-transform: rotate(-135deg);
@@ -759,7 +806,7 @@ a.scroll-right span {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
-/* line 127, ../sass/overrides/_index.scss */
+/* line 155, ../sass/overrides/_index.scss */
 a.scroll-down span {
   top: 20%;
   right: 28%;
@@ -769,87 +816,40 @@ a.scroll-down span {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 137, ../sass/overrides/_index.scss */
+/* line 165, ../sass/overrides/_index.scss */
 a.scroll-button:hover > span {
   border-left: 1px solid orange;
   border-bottom: 1px solid orange;
   /* !!! background-color changes, but not "color".
   find out what causes this line color */ }
 
-/*--------------------Container stuff--------------------*/
-/* line 147, ../sass/overrides/_index.scss */
-#container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 77.8px 0px 60px 0px;
-  color: #545454;
-  background-color: #fafafa;
-  line-height: 1.7em; }
-
-/* line 158, ../sass/overrides/_index.scss */
-#content {
-  padding: 0px;
-  background-color: none;
-  max-width: 100%;
-  height: 100%;
-  margin: 0; }
-
-/* line 171, ../sass/overrides/_index.scss */
-#parallax_portrait {
-  background-image: url("../img/oil/selfportrait_4.jpg");
-  height: 500px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
-
-/*--------------------For text layout--------------------*/
-/* line 181, ../sass/overrides/_index.scss */
-.main-text {
-  width: 552px;
-  min-width: 232px;
-  max-width: 100%;
-  padding: 100px 12%;
-  margin-left: auto;
-  margin-right: auto;
-  /* to center text */
-  text-align: left;
-  color: #545454; }
-
-@media only screen and (min-width: 815px) {
-  /* line 193, ../sass/overrides/_index.scss */
-  .main-text {
-    width: 66%;
-    max-width: 600px;
-    padding: 100px 50px; } }
-/*--------------------End text layout--------------------*/
 /*--------------------random effects on About page--------------------*/
-/* line 204, ../sass/overrides/_index.scss */
+/* line 176, ../sass/overrides/_index.scss */
 .random, .random2, .showing_off, .whoa {
   color: #545454; }
 
-/* line 208, ../sass/overrides/_index.scss */
+/* line 180, ../sass/overrides/_index.scss */
 .random:hover, .random2:hover, .showing_off:hover {
   font-size: 30px;
   font-family: Futura; }
 
-/* line 212, ../sass/overrides/_index.scss */
+/* line 184, ../sass/overrides/_index.scss */
 p:hover .random {
   color: #1e45c8; }
 
-/* line 216, ../sass/overrides/_index.scss */
+/* line 188, ../sass/overrides/_index.scss */
 p:hover .random2 {
   color: #32c814; }
 
-/* line 220, ../sass/overrides/_index.scss */
+/* line 192, ../sass/overrides/_index.scss */
 p:hover .showing_off {
   color: #c826fa; }
 
-/* line 224, ../sass/overrides/_index.scss */
+/* line 196, ../sass/overrides/_index.scss */
 span.whoa:hover {
   font-style: bold; }
 
-/* line 228, ../sass/overrides/_index.scss */
+/* line 200, ../sass/overrides/_index.scss */
 span.secret {
   display: none;
   -webkit-transition: all 1s ease;
@@ -858,14 +858,14 @@ span.secret {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 237, ../sass/overrides/_index.scss */
+/* line 209, ../sass/overrides/_index.scss */
 span.whoa:hover span.secret {
   display: inline;
   font-family: Futura; }
 
 /*--------------------end random effects on About page--------------------*/
 /*--------------------contact--------------------*/
-/* line 246, ../sass/overrides/_index.scss */
+/* line 218, ../sass/overrides/_index.scss */
 #contact-filler {
   float: center;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/oil/selfportrait_4.jpg");
@@ -876,35 +876,35 @@ span.whoa:hover span.secret {
   background-attachment: fixed;
   color: #fafafa; }
 
-/* line 257, ../sass/overrides/_index.scss */
+/* line 229, ../sass/overrides/_index.scss */
 #contact-filler h2, #contact-filler .main-text {
   color: #fafafa; }
 
-/* line 261, ../sass/overrides/_index.scss */
+/* line 233, ../sass/overrides/_index.scss */
 #contact-filler .contact-form__container {
   padding: 10px 0;
   text-align: right; }
 
-/* line 266, ../sass/overrides/_index.scss */
+/* line 238, ../sass/overrides/_index.scss */
 #contact-filler .contact-form__form {
   width: 90%; }
 
 /* media query for contact-form:
 		under width: 485, have on separate rows
  		over width: 485, have on same row */
-/* line 273, ../sass/overrides/_index.scss */
+/* line 245, ../sass/overrides/_index.scss */
 #contact-filler .contact_icon {
   color: white;
   padding: 5px;
   font-size: 26px; }
 
-/* line 279, ../sass/overrides/_index.scss */
+/* line 251, ../sass/overrides/_index.scss */
 #contact-filler .contact_icon:hover {
   color: orange; }
 
 /*--------------------end contact--------------------*/
 /*-------------------- Processing --------------------*/
-/* line 286, ../sass/overrides/_index.scss */
+/* line 258, ../sass/overrides/_index.scss */
 .processing-canvas {
   margin: auto;
   display: block;
@@ -912,31 +912,31 @@ span.whoa:hover span.secret {
 
 /*-------------------- End Processing --------------------*/
 /* Read More button: from http://cssdeck.com/labs/css-only-showhide */
-/* line 299, ../sass/overrides/_index.scss */
+/* line 271, ../sass/overrides/_index.scss */
 article {
   /*margin-bottom: 3rem;*/
   position: relative;
   *zoom: 1; }
 
-/* line 305, ../sass/overrides/_index.scss */
+/* line 277, ../sass/overrides/_index.scss */
 article:before, article:after {
   content: "";
   display: table; }
 
-/* line 310, ../sass/overrides/_index.scss */
+/* line 282, ../sass/overrides/_index.scss */
 article:after {
   clear: both; }
 
-/* line 312, ../sass/overrides/_index.scss */
+/* line 284, ../sass/overrides/_index.scss */
 section:first-of-type {
   /*float: right;*/ }
 
-/* line 316, ../sass/overrides/_index.scss */
+/* line 288, ../sass/overrides/_index.scss */
 section:last-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 321, ../sass/overrides/_index.scss */
+/* line 293, ../sass/overrides/_index.scss */
 section {
   -webkit-transition: .125s linear;
   -moz-transition: .125s linear;
@@ -944,11 +944,11 @@ section {
   -o-transition: .125s linear;
   transition: .125s linear; }
 
-/* line 329, ../sass/overrides/_index.scss */
+/* line 301, ../sass/overrides/_index.scss */
 section h3 {
   margin: 0; }
 
-/* line 333, ../sass/overrides/_index.scss */
+/* line 305, ../sass/overrides/_index.scss */
 input[type=checkbox] {
   border: 0;
   clip: rect(0 0 0 0);
@@ -959,7 +959,7 @@ input[type=checkbox] {
   padding: 0;
   position: absolute; }
 
-/* line 344, ../sass/overrides/_index.scss */
+/* line 316, ../sass/overrides/_index.scss */
 [for="read_more"] {
   position: absolute;
   bottom: -3rem;
@@ -974,28 +974,28 @@ input[type=checkbox] {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 359, ../sass/overrides/_index.scss */
+/* line 331, ../sass/overrides/_index.scss */
 [for="read_more"]:hover {
   background: rgba(30, 180, 200, 0.5);
   color: white; }
 
-/* line 364, ../sass/overrides/_index.scss */
+/* line 336, ../sass/overrides/_index.scss */
 [for="read_more"] span:last-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 369, ../sass/overrides/_index.scss */
+/* line 341, ../sass/overrides/_index.scss */
 input[type=checkbox]:checked ~ section {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 375, ../sass/overrides/_index.scss */
+/* line 347, ../sass/overrides/_index.scss */
 input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 380, ../sass/overrides/_index.scss */
+/* line 352, ../sass/overrides/_index.scss */
 input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
   display: block;
   visibility: visible; }

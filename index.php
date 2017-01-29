@@ -5,6 +5,14 @@
 
 		<div id = "content">
 
+			<div class="intro">
+				<p>Hi! I'm Flo.</p>
+				<p>I have a ton of projects, but here are just a few.
+				</p>
+				<p>You might have to click to see what you want to see.
+				</p>
+			</div>
+
 			<div class="portfolioFilter">
 			    <a href="#" data-filter="*" class="current">Show All</a>
 			    <br>
