@@ -4,6 +4,7 @@
 			<div id = "content">
 				<div id = "parallax_portrait">
 				</div>
+
 				<div class="main-text">
 					<!--maybe have a circular icon here? -->
 					<h2>About Flo</h2>
@@ -85,6 +86,7 @@
 					<p>
 					</p>
 				</div>
+
 				<div id = "contact-filler">
 					<div class="main-text">
 						<h2>Let's Chat!</h2>

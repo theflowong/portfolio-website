@@ -5,11 +5,16 @@
 
 		<div id = "content">
 
-			<div class="intro">
-				<p>Hi! I'm Flo.</p>
-				<p>I have a ton of projects, but here are just a few.
+			<div class="main-text">
+				<h2>Hi! I'm Flo.</h2>
+				<p>I'm an artist, digital creator, freelancer, and social justice advocate.
 				</p>
-				<p>You might have to click to see what you want to see.
+				<p>Welcome to my website of brain explorations!
+				</p>
+				<p>I can't show you everything,
+					so here are a few choice projects I've done.
+					I work with a lot different mediums and themes,
+					so you may want to sort by type.
 				</p>
 			</div>
 
