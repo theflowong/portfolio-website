@@ -100,14 +100,20 @@ h2:hover {
   font-size: 35px; }
 
 /* line 57, ../sass/elements/_index.scss */
-h3, h4 {
-  font-family: Open Sans, Helvetica;
+h3 {
+  font-family: Corbel, Helvetica, Arial, sans-serif;
+  font-size: 20px;
   text-align: center;
+  line-height: 1.4em; }
+
+/* line 64, ../sass/elements/_index.scss */
+h4 {
+  font-family: Open Sans, Helvetica;
   font-size: 13px;
   line-height: 1.4em;
   text-align: left; }
 
-/* line 65, ../sass/elements/_index.scss */
+/* line 71, ../sass/elements/_index.scss */
 ul {
   text-align: left; }
 
@@ -680,12 +686,14 @@ ul.media li a.contact_icon:hover {
   color: #545454; }
 
 @media only screen and (min-width: 815px) {
-  /* line 15, ../sass/components/_text.scss */
+  /* line 19, ../sass/components/_text.scss */
   .main-text {
     width: 66%;
     max-width: 600px;
-    padding: 100px 50px; } }
-/*--------------------End text layout--------------------*/
+    padding: 100px 50px; }
+    /* line 24, ../sass/components/_text.scss */
+    .main-text h2 {
+      font-size: 50px; } }
 /*-------------------- BUTTONS --------------------*/
 /*-------------------- Toggle --------------------*/
 /* line 6, ../sass/components/_buttons.scss */
@@ -736,7 +744,11 @@ a.toggle-description-button {
 
 	*/
 /*-------------------- Scroll Buttons --------------------*/
-/* line 59, ../sass/components/_buttons.scss */
+/* line 58, ../sass/components/_buttons.scss */
+.scroll-container {
+  text-align: center; }
+
+/* line 61, ../sass/components/_buttons.scss */
 a.scroll-button {
   /* !!! also, only show this with the horizontal gallery */
   position: absolute;
@@ -753,25 +765,26 @@ a.scroll-button {
   padding: 30px;
   background-color: rgba(1, 1, 1, 0.1); }
 
-/* line 75, ../sass/components/_buttons.scss */
+/* line 77, ../sass/components/_buttons.scss */
 a.scroll-left, a.scroll-right {
   top: 50%;
   /* consider making all scroll buttons at bottom */ }
 
-/* line 79, ../sass/components/_buttons.scss */
+/* line 81, ../sass/components/_buttons.scss */
 a.scroll-right {
   right: 15px; }
 
-/* line 83, ../sass/components/_buttons.scss */
+/* line 85, ../sass/components/_buttons.scss */
 a.scroll-down {
+  text-align: center;
   bottom: 0;
-  -webkit-transform: translateY(-36px);
-  -moz-transform: translateY(-36px);
-  -ms-transform: translateY(-36px);
-  -o-transform: translateY(-36px);
-  transform: translateY(-36px); }
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px); }
 
-/* line 92, ../sass/components/_buttons.scss */
+/* line 95, ../sass/components/_buttons.scss */
 a.scroll-button span {
   position: absolute;
   float: right;
@@ -779,8 +792,8 @@ a.scroll-button span {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid white;
-  border-bottom: 1px solid white;
+  border-left: 2px solid purple;
+  border-bottom: 2px solid purple;
   box-sizing: border-box;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
@@ -788,7 +801,7 @@ a.scroll-button span {
   -o-transition: all .5s ease;
   transition: all .5s ease; }
 
-/* line 110, ../sass/components/_buttons.scss */
+/* line 113, ../sass/components/_buttons.scss */
 a.scroll-left span {
   right: 20%;
   -webkit-transform: rotate(45deg);
@@ -797,7 +810,7 @@ a.scroll-left span {
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 119, ../sass/components/_buttons.scss */
+/* line 122, ../sass/components/_buttons.scss */
 a.scroll-right span {
   right: 40%;
   -webkit-transform: rotate(-135deg);
@@ -806,7 +819,7 @@ a.scroll-right span {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
-/* line 128, ../sass/components/_buttons.scss */
+/* line 131, ../sass/components/_buttons.scss */
 a.scroll-down span {
   top: 20%;
   right: 28%;
@@ -816,39 +829,93 @@ a.scroll-down span {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 138, ../sass/components/_buttons.scss */
+/* line 141, ../sass/components/_buttons.scss */
 a.scroll-button:hover > span {
   border-left: 1px solid orange;
   border-bottom: 1px solid orange;
   /* !!! background-color changes, but not "color".
   find out what causes this line color */ }
 
+/*----------- demo: CSS scroll down button -----------*/
+/* line 154, ../sass/components/_buttons.scss */
+#section07 a {
+  padding-top: 80px; }
+
+/* line 157, ../sass/components/_buttons.scss */
+#section07 a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-left: -12px;
+  border-left: 2px solid purple;
+  border-bottom: 2px solid purple;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box; }
+
+/* line 173, ../sass/components/_buttons.scss */
+#section07 a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+/* line 177, ../sass/components/_buttons.scss */
+#section07 a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s; }
+
+/* line 182, ../sass/components/_buttons.scss */
+#section07 a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s; }
+
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes sdb07 {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+/*----------- end scroll down button -----------*/
 /* Read More button: from http://cssdeck.com/labs/css-only-showhide */
-/* line 150, ../sass/components/_buttons.scss */
+/* line 223, ../sass/components/_buttons.scss */
 article {
   /*margin-bottom: 3rem;*/
   position: relative;
   *zoom: 1; }
 
-/* line 156, ../sass/components/_buttons.scss */
+/* line 229, ../sass/components/_buttons.scss */
 article:before, article:after {
   content: "";
   display: table; }
 
-/* line 161, ../sass/components/_buttons.scss */
+/* line 234, ../sass/components/_buttons.scss */
 article:after {
   clear: both; }
 
-/* line 163, ../sass/components/_buttons.scss */
+/* line 236, ../sass/components/_buttons.scss */
 section:first-of-type {
   /*float: right;*/ }
 
-/* line 167, ../sass/components/_buttons.scss */
+/* line 240, ../sass/components/_buttons.scss */
 section:last-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 172, ../sass/components/_buttons.scss */
+/* line 245, ../sass/components/_buttons.scss */
 section {
   -webkit-transition: .125s linear;
   -moz-transition: .125s linear;
@@ -856,11 +923,11 @@ section {
   -o-transition: .125s linear;
   transition: .125s linear; }
 
-/* line 180, ../sass/components/_buttons.scss */
+/* line 253, ../sass/components/_buttons.scss */
 section h3 {
   margin: 0; }
 
-/* line 184, ../sass/components/_buttons.scss */
+/* line 257, ../sass/components/_buttons.scss */
 input[type=checkbox] {
   border: 0;
   clip: rect(0 0 0 0);
@@ -871,7 +938,7 @@ input[type=checkbox] {
   padding: 0;
   position: absolute; }
 
-/* line 195, ../sass/components/_buttons.scss */
+/* line 268, ../sass/components/_buttons.scss */
 [for="read_more"] {
   position: absolute;
   bottom: -3rem;
@@ -886,28 +953,28 @@ input[type=checkbox] {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 210, ../sass/components/_buttons.scss */
+/* line 283, ../sass/components/_buttons.scss */
 [for="read_more"]:hover {
   background: rgba(30, 180, 200, 0.5);
   color: white; }
 
-/* line 215, ../sass/components/_buttons.scss */
+/* line 288, ../sass/components/_buttons.scss */
 [for="read_more"] span:last-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 220, ../sass/components/_buttons.scss */
+/* line 293, ../sass/components/_buttons.scss */
 input[type=checkbox]:checked ~ section {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 226, ../sass/components/_buttons.scss */
+/* line 299, ../sass/components/_buttons.scss */
 input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
   display: none;
   visibility: hidden; }
 
-/* line 231, ../sass/components/_buttons.scss */
+/* line 304, ../sass/components/_buttons.scss */
 input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
   display: block;
   visibility: visible; }

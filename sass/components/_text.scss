@@ -9,14 +9,20 @@
 	margin-right: auto; /* to center text */
 	text-align: left;
 	color: rgb(84,84,84);
+
+  #intro {
+    //background-color: rgb(100,20,20); // CHECK WORKING
+  }
 }
 
-	@media only screen and (min-width: 815px) {
-		.main-text {
-			width: 66%;
-			max-width: 600px;
-			padding: 100px 50px;
-		}
-	}
+@media only screen and (min-width: 815px) {
+	.main-text {
+		width: 66%;
+		max-width: 600px;
+		padding: 100px 50px;
 
-/*--------------------End text layout--------------------*/
+    h2 {
+      font-size: 50px;
+    }
+	}
+}

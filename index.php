@@ -5,10 +5,10 @@
 
 		<div id = "content">
 
-			<div class="main-text">
+			<div class="main-text" id="intro">
 				<h2>Hi! I'm Flo.</h2>
-				<p>I'm an artist, digital creator, freelancer, and social justice advocate.
-				</p>
+				<h3>I'm an artist, digital creator, freelancer, and social justice advocate.
+				</h3>
 				<p>Welcome to my website of brain explorations!
 				</p>
 				<p>I can't show you everything,
@@ -16,9 +16,17 @@
 					I work with a lot different mediums and themes,
 					so you may want to sort by type.
 				</p>
+				<div class="scroll-container">
+					<div id="section07">
+						<a class="scroll-button scroll-down" href="#artPortfolio">
+								<span></span><span></span><span></span>
+						</a>
+					</div>
+				</div>
+
 			</div>
 
-			<div class="portfolioFilter">
+			<div class="portfolioFilter" id="artPortfolio">
 			    <a href="#" data-filter="*" class="current">Show All</a>
 			    <br>
 			    <a href="#" data-filter=".activism">Animal Activism</a>

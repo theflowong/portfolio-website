@@ -54,9 +54,15 @@ h2:hover {
 	font-size: 35px;
 }
 
-h3, h4 {
-	font-family: Open Sans, Helvetica;
+h3 {
+	font-family: Corbel, Helvetica, Arial, sans-serif;
+	font-size: 20px;
 	text-align: center;
+	line-height: 1.4em;
+}
+
+h4 {
+	font-family: Open Sans, Helvetica;
 	font-size: 13px;
 	line-height: 1.4em;
 	text-align: left;
