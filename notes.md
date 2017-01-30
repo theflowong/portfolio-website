@@ -12,7 +12,7 @@
  - [ ] Fill survey form
 
 ## Index: landing
-- [ ] Add landing section / introduction
+- [x] Add landing section / introduction
 - [ ] Random photo every refresh (see Graham's website)
 - [ ] Maybe weird art (with Processing?)
 
