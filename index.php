@@ -7,7 +7,7 @@
 
 			<div class="main-text" id="intro">
 				<h2>Hi! I'm Flo.</h2>
-				<h3>I'm an artist, digital creator, freelancer, and social justice advocate.
+				<h3>I'm a digital creator, artist, freelancer, and social justice advocate.
 				</h3>
 				<p>Welcome to my website of brain explorations!
 				</p>
@@ -16,6 +16,7 @@
 					I work with a lot different mediums and themes,
 					so you may want to sort by type.
 				</p>
+				<p>Click into any of them for more images and info.</p>
 				<div class="scroll-container">
 					<div id="section07">
 						<a class="scroll-button scroll-down" href="#artPortfolio">
@@ -32,8 +33,8 @@
 			    <a href="#" data-filter=".activism">Animal Activism</a>
 
 
-			    <a href="#" data-filter=".places">Places</a>
-					<a href="#" data-filter=".figures">Figures</a>
+			    <!--<a href="#" data-filter=".places">Places</a>
+					<a href="#" data-filter=".figures">Figures</a>-->
 
 			   	<a href="#" data-filter=".dreamy">Surreal</a>
 			   	<br>

@@ -12,8 +12,9 @@
 		<link rel = "shortcut icon" href = "img/flo.ico" type="image/x-icon" />
 
 		<!-- Styles -->
+		<link href="css/flexblocks.css" rel="stylesheet" type="text/css"/>
+
 			<link href="css/isotope-portfoliogrid.css" rel="stylesheet" type="text/css"/>
-			<link href="css/flexblocks.css" rel="stylesheet" type="text/css"/>
 			<link href="css/style.css" rel="stylesheet" type="text/css"/>
 
 		<!-- Fonts (better than @import; doesn't block parallel downloads) -->

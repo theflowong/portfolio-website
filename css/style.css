@@ -678,7 +678,7 @@ ul.media li a.contact_icon:hover {
   width: 552px;
   min-width: 232px;
   max-width: 100%;
-  padding: 100px 12%;
+  padding: 50px 12% 0px;
   margin-left: auto;
   margin-right: auto;
   /* to center text */
