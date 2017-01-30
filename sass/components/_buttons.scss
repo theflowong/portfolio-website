@@ -68,10 +68,10 @@ a.scroll-button {
     	-ms-transform: translateY(-12px);
     	-o-transform: translateY(-12px);
 		transform: translateY(-12px);
-	width: 24px;
-	height: 24px;
-	padding: 30px;
-	background-color: rgba(1,1,1,0.1);
+	//width: 24px;
+	//height: 24px;
+	//padding: 30px;
+	//background-color: rgba(1,1,1,0.1);
 }
 
 	a.scroll-left, a.scroll-right {
@@ -84,7 +84,7 @@ a.scroll-button {
 
 	a.scroll-down {
 		text-align: center;
-		bottom: 0;
+		//bottom: 0;
 		-webkit-transform: translateY(0px); // -36?
 	    	-moz-transform: translateY(0px);
     		-ms-transform: translateY(0px);
