@@ -14,6 +14,10 @@ See tutorial http://www.9bitstudios.com/2013/04/jquery-isotope-tutorial/
   padding: 15px;
 }
 
+#artPortfolio {
+  padding-top: 100px; /* for the scroll button; lands so that header/title only covers the blank padding top part */
+}
+
 .portfolioContent {
 /*  left: 50%;
   -moz-transform: translateX(-50%);

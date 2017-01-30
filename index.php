@@ -12,7 +12,7 @@
 				<p>Welcome to my website of brain explorations!
 				</p>
 				<p>I can't show you everything,
-					so here are a few choice projects I've done.
+					so here are a few choice projects and series I've done.
 					I work with a lot different mediums and themes,
 					so you may want to sort by type.
 				</p>
