@@ -426,6 +426,55 @@ ul.media li a.contact_icon:hover {
 #copyright:hover {
   color: black; }
 
+/*--------------------Container stuff--------------------*/
+/* line 2, ../sass/components/_containers.scss */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 77.8px 0px 60px 0px;
+  color: #545454;
+  background-color: #fafafa;
+  line-height: 1.7em; }
+
+/* line 13, ../sass/components/_containers.scss */
+#content {
+  padding: 0px 30px;
+  background-color: none;
+  max-width: 100%;
+  height: 100%;
+  margin: 0; }
+
+/* line 24, ../sass/components/_containers.scss */
+#parallax_portrait {
+  background-image: url("../img/oil/selfportrait_4.jpg");
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/*--------------------For text layout--------------------*/
+/* line 3, ../sass/components/_text.scss */
+.main-text {
+  width: 552px;
+  min-width: 232px;
+  max-width: 100%;
+  padding: 50px 12% 0px;
+  margin-left: auto;
+  margin-right: auto;
+  /* to center text */
+  text-align: left;
+  color: #545454; }
+
+@media only screen and (min-width: 815px) {
+  /* line 19, ../sass/components/_text.scss */
+  .main-text {
+    width: 66%;
+    max-width: 600px;
+    padding: 100px 50px; }
+    /* line 24, ../sass/components/_text.scss */
+    .main-text h2 {
+      font-size: 50px; } }
 /*--------------------for specific art project pages--------------------*/
 /* line 2, ../sass/components/_scroll-gallery.scss */
 #content_art {
@@ -645,55 +694,209 @@ ul.media li a.contact_icon:hover {
     margin-right: 6px; } }
 /* what was i thinking to do with this? */
 /*--------------------end Scroll gallery (specific art gallery pages) styling--------------------*/
-/*--------------------Container stuff--------------------*/
-/* line 2, ../sass/components/_containers.scss */
-#container {
+/*--------------------
+Adapted by Flo Wong:
+
+Portfolio for index page using Isotope JS;
+properties: filter & masonry grid layout.
+
+See tutorial http://www.9bitstudios.com/2013/04/jquery-isotope-tutorial/
+--------------------*/
+/*--------------------portfolio Filter--------------------*/
+/* line 13, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioFilter {
+  padding: 15px; }
+
+/* line 17, ../sass/components/_isotope-portfolio-grid.scss */
+#artPortfolio {
+  padding-top: 100px;
+  /* for the scroll button; lands so that header/title only covers the blank padding top part */ }
+
+/* line 21, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContent {
+  /*  left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); */ }
+
+/* line 29, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioFilter a {
+  margin: 0px 15px;
+  font-family: Unica One, Poiret One, Voltaire, Corbel, Arial;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #666;
+  text-decoration: none;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease; }
+
+/* line 43, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioFilter a.current {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #82f0d2; }
+
+/* line 49, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioFilter a:hover {
+  /*font-size: 20px;*/
+  color: turquoise; }
+
+/*--------------------end portfolioFilter--------------------*/
+/*--------------------begin portfolioContainer--------------------*/
+/* line 59, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer {
+  width: 95%;
+  margin: 0 auto; }
+
+/* line 64, ../sass/components/_isotope-portfolio-grid.scss */
+.grid-sizer, .grid-item {
+  width: 30%;
+  min-width: 280px; }
+
+/* line 69, ../sass/components/_isotope-portfolio-grid.scss */
+figure {
+  margin: 0px; }
+
+/* line 73, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer img {
+  margin: 5px;
+  width: 100%; }
+
+/* line 78, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade {
+  margin: 0;
+  overflow: hidden;
+  position: relative; }
+
+/* line 84, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade figcaption {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 77.8px 0px 60px 0px;
-  color: #545454;
-  background-color: #fafafa;
-  line-height: 1.7em; }
-
-/* line 13, ../sass/components/_containers.scss */
-#content {
-  padding: 0px 30px;
-  background-color: none;
-  max-width: 100%;
+  /* of the table... fix it to just the image */
   height: 100%;
-  margin: 0; }
+  /* of the table */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  /* Safari */
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  /* Safari */
+  justify-content: center;
+  color: white;
+  font-family: Unica One;
+  font-size: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
 
-/* line 24, ../sass/components/_containers.scss */
-#parallax_portrait {
-  background-image: url("../img/oil/selfportrait_4.jpg");
-  height: 500px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+/* line 118, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade figcaption span {
+  padding: 20px;
+  /* for caption titles inside box */
+  display: table-cell;
+  position: relative;
+  -moz-transform: translateY(-40px);
+  -webkit-transform: translateY(-40px);
+  /* Safari */
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+  transform: translateY(-40px);
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out; }
 
-/*--------------------For text layout--------------------*/
-/* line 3, ../sass/components/_text.scss */
-.main-text {
-  width: 552px;
-  min-width: 232px;
-  max-width: 100%;
-  padding: 50px 12% 0px;
-  margin-left: auto;
-  margin-right: auto;
-  /* to center text */
-  text-align: left;
-  color: #545454; }
+/* line 134, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade figcaption:hover {
+  opacity: 1; }
 
-@media only screen and (min-width: 815px) {
-  /* line 19, ../sass/components/_text.scss */
-  .main-text {
-    width: 66%;
-    max-width: 600px;
-    padding: 100px 50px; }
-    /* line 24, ../sass/components/_text.scss */
-    .main-text h2 {
-      font-size: 50px; } }
+/* line 138, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade figcaption:hover span {
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  font-size: 20px; }
+
+/* line 147, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade img {
+  display: block;
+  height: auto;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+/* line 157, ../sass/components/_isotope-portfolio-grid.scss */
+.portfolioContainer .fade li:hover img {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+  /* doesn't work? */ }
+
+/*--------------------end portfolio Container--------------------*/
+/*--------------------begin other--------------------*/
+/* line 169, ../sass/components/_isotope-portfolio-grid.scss */
+img {
+  margin: 5px; }
+
+/* line 173, ../sass/components/_isotope-portfolio-grid.scss */
+.isotope-item {
+  z-index: 2; }
+
+/* line 176, ../sass/components/_isotope-portfolio-grid.scss */
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1; }
+
+/* line 180, ../sass/components/_isotope-portfolio-grid.scss */
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s; }
+
+/* line 188, ../sass/components/_isotope-portfolio-grid.scss */
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width; }
+
+/* line 193, ../sass/components/_isotope-portfolio-grid.scss */
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity; }
+
+/*--------------------end other--------------------*/
 /*-------------------- BUTTONS --------------------*/
 /*-------------------- Toggle --------------------*/
 /* line 6, ../sass/components/_buttons.scss */
