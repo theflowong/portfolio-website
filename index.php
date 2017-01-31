@@ -160,9 +160,9 @@
 
 				<div class="grid-item design 2d">
 					<a href="design.php">
-						<figure class="fade" title="Visual Design & Typography">
+						<figure class="fade" title="Branding">
 							<img src="img/design/logo_orangemoon1.png" />
-							<figcaption><span>Visual Design & Typography</span></figcaption>
+							<figcaption><span>Branding</span></figcaption>
 						</figure>
 					</a>
 				</div>
