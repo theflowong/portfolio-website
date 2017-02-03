@@ -17,6 +17,10 @@
 - [ ] Maybe weird art (with Processing?)
 
 ## Index: gallery portfolio
+- Add:
+ - [ ] Vegan chili cookoff poster
+ - [ ] TABAH album jacket artwork (comissions page?)
+ - [ ] Casual drawings/watercolors of friends (take photos from notebooks?)
 - [ ] Create class for portfolio item/page?
  * title
  * description
