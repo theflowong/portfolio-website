@@ -1,5 +1,8 @@
 # In-progress Notes: To-Do
 
+## Projects To Add
+- [ ] Vegan Chili Cookoff Poster + FB poster (Compassionate Action for Animals)
+- [ ] TABAH album jacket art
 
 ## Header
 - [ ] Center name/title
@@ -14,7 +17,7 @@
 ## Index: landing
 - [x] Add landing section / introduction
 - [ ] Random photo every refresh (see Graham's website)
-- [ ] Maybe weird art (with Processing?)
+- [ ] Maybe weird art on the page (with Processing?)
 
 ## Index: gallery portfolio
 - Add:
