@@ -38,7 +38,8 @@
 
 			   	<a href="#" data-filter=".dreamy">Surreal</a>
 			   	<br>
-			    <a href="#" data-filter=".2d">2d</a>
+			    <!--<a href="#" data-filter=".2d">2d</a>-->
+					<a href="#" data-filter=".quickies">quickies</a>
 			    <a href="#" data-filter=".3d">3d</a>
 			    <a href="#" data-filter=".design">Digital</a>
 			</div>
@@ -93,7 +94,7 @@
 				</div>
 
 
-				<div class="grid-item figures 2d">
+				<div class="grid-item figures 2d quickies">
 					<a href="figures.php">
 						<figure class="fade" title="Portraits and Figures">
 							<img src="img/south_pacific/people/people2_small.jpg" />
@@ -140,7 +141,7 @@
 				</div>
 
 
-				<div class="grid-item places 2d">
+				<div class="grid-item places 2d quickies">
 					<a href="watercolor.php">
 						<figure class="fade" title="Watercolor">
 							<img src="img/south_pacific/watercolor/watercolor9_small.jpg" />
@@ -167,7 +168,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item places 2d">
+				<div class="grid-item places 2d quickies">
 					<a href="pen.php">
 						<figure class="fade" title="Pen and Ink">
 							<img src="img/south_pacific/pen/penink8.jpg" />
@@ -176,7 +177,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item imagined 2d figures">
+				<div class="grid-item imagined 2d figures quickies">
 					<a href="musicians.php">
 						<figure class="fade" title="Musicians Gone Wild">
 							<img src="img/prints/musicians4_small.jpg" />
