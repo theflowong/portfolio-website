@@ -31,7 +31,7 @@
 								</p>
 
 								<p>See my code
-								for <a href="https://github.com/theflowong/trippy_trees">Trees on Acid</a>
+								for <a href="https://github.com/theflowong/trippy_trees">Breathing Trees</a>
 								on Github!
 
 								</p>
