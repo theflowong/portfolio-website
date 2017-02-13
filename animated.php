@@ -18,7 +18,7 @@
 					<div class="description">
 						<article>
 
-								<p>On a recent trip to my alma mater, I was inspired by the
+								<p>When I visited my alma mater last fall, I was inspired by the
 									amount of life in the Arboretum, and decided to create
 									an animated visualization of a breathing autumn landscape.
 								</p>
