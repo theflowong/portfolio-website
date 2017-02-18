@@ -23,18 +23,18 @@
 								<p>As consumers, we're constantly surrounded by advertisements
 								that feed us unreliable information and make us desire more than we need.</p>
 								<p>This is a series of more truthful advertisements that comment
-								on aspects of our food industry regarding our oppressive relationships with 
+								on aspects of our food industry regarding our oppressive relationships with
 								non-human animals, ranging
 						<!--</p>
 							</section>
 							<section>
 						<p>-->
-								from the evident concept that a consumer choice 
-								results in the death of an animal, to more obscure, lesser-known realities 
+								from the evident concept that a consumer choice
+								results in the death of an animal, to more obscure, lesser-known realities
 								like artificial insemination processes or the grinding up of male chicks
 								in the milk and egg industry.</p>
 								<p>By mimicking particular trademark brands
-								and commercials, the series aims to convey the very own hush-hush 
+								and commercials, the series aims to convey the very own hush-hush
 								secrets of the industry that advertisements try to conceal
 								in the first place.</p>
 						<!--</section>-->
@@ -44,14 +44,7 @@
 
 
 				<div class="scroll-gallery_art">
-					<ul>
-							<li><img class="img_hover" src="oil/veganads1.jpg" height="100%" border="0" /></li>
-							<!--<p class="caption">i'm mournin' it</p>-->
-							<li><img class="img_hover" src="oil/veganads2.jpg" height="100%" border="0" /></li>
-							<!--<p class="caption">got consent?</p>-->
-							<li><img class="img_hover" src="oil/veganads3.jpg" height="100%" border="0" /></li>
-							<!--<p class="caption">kinder</p>-->
-					</ul>
+					<iframe src="http://localhost/flowong.com/test.php"></iframe>
 				</div>
 			</div>
 		</div>
