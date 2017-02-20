@@ -13,6 +13,7 @@
 - [ ] Add Work Together / Commissions page
  - [ ] Flesh out instructions, scope, pricing
  - [ ] Fill survey form
+ - [ ] Commissions?
 
 ## Index: landing
 - [x] Add landing section / introduction
