@@ -37,6 +37,8 @@
 					<a href="#" data-filter=".figures">Figures</a>-->
 
 			   	<a href="#" data-filter=".dreamy">Surreal</a>
+					<a href="#" data-filter=".comissions">Comissions</a>
+
 			   	<br>
 			    <!--<a href="#" data-filter=".2d">2d</a>-->
 					<a href="#" data-filter=".quickies">quickies</a>
