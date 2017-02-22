@@ -11,15 +11,19 @@
 							Album Jacket Art
 						</div>
 						<div class="title-info">
-							Watercolor, pen, color pencil<br>
+							Watercolor, color pencil, pen<br>
 							2017
 						</div>
 					</div>
 
 					<div class="description">
 						<article>
-								<p>I had the pleasure of being invited by TABAH to create five album jacket covers
-                for a limited release of 50 albums.</p>
+								<p>I was honored to be invited to create
+                  five album jacket covers for Minneapolis indie rock band
+                  TABAH.
+                  This was for the pre-release of their new album
+                  Symmetry Somewhere, where they have a limited edition
+                  of 50 albums.</p>
 						</article>
 					</div>
 				</div>
