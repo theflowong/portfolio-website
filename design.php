@@ -33,7 +33,37 @@
 							<!-- Rolo GitHub -->
 
 							<li>
-								<img class="img_hover" src="img/design/lord-logo.png" height="100%" border="0" />
+								<a class="toggle-description" id="lord-logo0">
+									<img class="img_hover" src="img/design/lord-logo.png" height="100%" border="0" />
+								</a>
+							</li>
+
+							<li>
+								<div class="art-description" id="lord-logo">
+									<div class="title">
+										<div class="title-main">
+											Robert Lord GitHub Icon
+										</div>
+										<div class="title-info">
+											ProCreate<br>
+											2016
+										</div>
+									</div>
+									<p>I digitally painted this icon head for programmer
+										<a href="https://github.com/lord">Robert Lord</a>'s
+										GitHub profile,
+										which I just realized was updated to another photo
+										as I am typing this.</p>
+										<p>He clearly doesn't appreciate good art,
+											but I will nevertheless respect his decisions.</p>
+										<p>Anyhow, I started by digitally painting a complete image
+											of his face
+											based on a photograph. We then experimented with
+											different styles and methods of portraying his face,
+											and eventually
+											decided to keep the logo simple and straightforward,
+											keeping his hair and glasses as his personal iconic features.</p>
+								</div>
 							</li>
 
 
