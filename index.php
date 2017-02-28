@@ -37,7 +37,7 @@
 					<a href="#" data-filter=".figures">Figures</a>-->
 
 			   	<a href="#" data-filter=".dreamy">Surreal</a>
-					<a href="#" data-filter=".comissions">Comissions</a>
+					<a href="#" data-filter=".commissions">Commissions</a>
 
 			   	<br>
 			    <!--<a href="#" data-filter=".2d">2d</a>-->
@@ -50,6 +50,16 @@
 				<!--<div class="portfolioContent">-->
 
 				<div class="grid-sizer"></div>
+
+				<div class="grid-item commissions">
+					<a href="tabah.php">
+						<figure class="fade" title="Album Jacket Art">
+							<img src="img/tabah/tabah_1.jpg" />
+							<figcaption><span>Album Jacket Art</span></figcaption>
+						</figure>
+					</a>
+				</div>
+
 				<div class="grid-item dreamy places 3d">
 					<a href="ceramics.php">
 						<figure class="fade" title="Cups, Mugs & Plates">
