@@ -20,10 +20,12 @@
 						<article>
 								<p>I was honored to be invited to create
                   five album jacket covers for Minneapolis indie rock band
-                  TABAH.
-                  This was made for a pre-release sale
-                  of their new album Symmetry Somewhere,
-                  five of 50 limited edition albums.</p>
+                  <a href="https://www.facebook.com/tabahofficial/">TABAH</a>.
+                  These five are part of 50 limited edition albums,
+                  created for a pre-release sale
+                  of their upcoming album Symmetry Somewhere.</p>
+                <p>
+                </p>
 						</article>
 					</div>
 				</div>
