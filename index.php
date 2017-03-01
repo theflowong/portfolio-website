@@ -6,7 +6,7 @@
 		<div id = "content">
 
 			<div class="main-text" id="intro">
-				<h2>Hi! I'm Flo.</h2>
+				<h2>Hello! I'm Flo.</h2>
 				<h3>I'm a digital creator, artist, freelancer, and social justice advocate.
 				</h3>
 				<p>Welcome to my website of brain explorations!
@@ -28,8 +28,7 @@
 			</div>
 
 			<div class="portfolioFilter" id="artPortfolio">
-			    <a href="#" data-filter="*" class="current">Show All</a>
-			    <br>
+			    <a href="#" data-filter="*" class="current"><h2>Show All</h2></a>
 			    <a href="#" data-filter=".activism">Animal Activism</a>
 
 
@@ -185,6 +184,15 @@
 						<figure class="fade" title="Pen and Ink">
 							<img src="img/south_pacific/pen/penink8.jpg" />
 							<figcaption><span>Pen and Ink<br>from the South Pacific</span></figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="grid-item design commissions">
+					<a href="chili-poster.php">
+						<figure class="fade" title="Vegan Chili Poster">
+							<img src="img/vegan-chili/chili-poster-color.png" />
+							<figcaption><span><br>Event Poster</span></figcaption>
 						</figure>
 					</a>
 				</div>
