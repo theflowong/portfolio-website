@@ -51,18 +51,23 @@
 									</div>
 									<p>I digitally painted this icon head for programmer
 										<a href="https://github.com/lord">Robert Lord</a>'s
-										GitHub profile,
-										which I just realized was updated to another photo
-										as I am typing this.</p>
-										<p>He clearly doesn't appreciate good art,
-											but I will nevertheless respect his decisions.</p>
-										<p>Anyhow, I started by digitally painting a complete image
+										GitHub profile.<sup><a href="#fn1" id="ref1">1</a></sup>
+
+									</p>
+										<p>I started by digitally painting a complete image
 											of his face
 											based on a photograph. We then experimented with
 											different styles and methods of portraying his face,
 											and eventually
 											decided to keep the logo simple and straightforward,
 											keeping his hair and glasses as his personal iconic features.</p>
+											<hr></hr>
+										<sup id="fn1">1. The profile picture was recently changed
+											for fear of appearing too scary.
+											Clearly he doesn't appreciate good art,
+											but I will respect his decision nonetheless.
+											<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a>
+										</sup>
 								</div>
 							</li>
 
