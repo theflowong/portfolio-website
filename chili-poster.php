@@ -19,11 +19,23 @@
 
 					<div class="description">
 						<article>
-								<p>This February marked the 8th annual vegan chili cookoff
-								held by Minneapolis animal-rights organization
-								Compassionate Action for Animals.</p>
-                <p>I had a fun time creating a poster for the event,
-									optimized for print and Facebook.
+								<p>I know many vegans in Minneapolis —
+									largely thanks to the sheer number of vegans and vegan food in
+									Minneapolis, but also from fun vegan events organized by
+									<a href="https://www.exploreveg.org/">Compassionate Action for Animals</a>,
+									a great animal advocacy organization.
+								</p>
+                <p>CAA's events are always fun, welcoming, and inclusive.
+									And they spread the joy of eating
+									plant-based foods!
+
+								</p>
+								<p>For its 8th Annual Vegan Chili Cookoff,
+									I worked with CAA executive director
+									Laura Matanah to create a poster
+									optimized for both print and Facebook.
+									The printed posters were pinned around Minneapolis and St. Paul
+									to advertise for the event.
                 </p>
 						</article>
 					</div>
