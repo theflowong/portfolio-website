@@ -29,7 +29,7 @@
 
 			<div class="portfolioFilter" id="artPortfolio">
 			    <a href="#" data-filter="*" class="current"><h2>Show All</h2></a>
-			    <a href="#" data-filter=".activism">Animal Activism</a>
+			    <a href="#" data-filter=".activism">Animal Advocacy</a>
 
 
 			    <!--<a href="#" data-filter=".places">Places</a>
