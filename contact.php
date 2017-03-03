@@ -22,6 +22,14 @@
 								<li>community-based projects</li>
 								<li>nice things, or spreading kindness in general</li>
 							</ul>
+
+							Here are a few examples of projects I've worked on:
+							<ul>
+								<li><a href="tabah.php">Album jacket art</a> (for TABAH)</li>
+								<li><a href="chili-poster.php">Event posters</a> (for Compassionate Action for Animals)</li>
+								<li><a href="design.php">Icons and logos</a> (for Robert Lord)</li>
+							</ul>
+
 							I wear many hats, and am
 							available to help with
 							creative requests (small or large!)
@@ -31,12 +39,7 @@
 								<li>Getting feedback on website or app interfaces</li>
 								<li>Creating digital painting thank-you postcards</li>
 							</ul>
-
-							Here are a few examples of projects I've worked on:
-							<ul>
-								<li>Art for music album jackets (for TABAH)</li>
-								<li>Event posters (for Compassionate Action for Animals)</li>
-							</ul>
+							
 							Shoot me a <a href="mailto:hello@flowong.com">message</a>
 							with any ideas, comments, or questions!</p>
 					<p>
