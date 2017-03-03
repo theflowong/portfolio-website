@@ -7,9 +7,7 @@
 				<div class="scroll-gallery_text">
 
 					<div class="title">
-						<div class="title-main">
-							Compassionate Action for Animals'<br>
-							8th Annual Vegan Chili Poster
+						<div class="title-main">Vegan Chili Poster
 						</div>
 						<div class="title-info">
 							Canva, Photoshop<br>
@@ -19,16 +17,13 @@
 
 					<div class="description">
 						<article>
-								<p>I know many vegans in Minneapolis —
-									largely thanks to the sheer number of vegans and vegan food in
-									Minneapolis, but also from fun vegan events organized by
-									<a href="https://www.exploreveg.org/">Compassionate Action for Animals</a>,
-									a great animal advocacy organization.
+								<p><a href="https://www.exploreveg.org/">Compassionate Action for Animals</a>
+									is a Twin Cities based animal advocacy organization
+									that creates a welcoming
+									community of vegans within Minneapolis and St Paul.
 								</p>
-                <p>CAA's events are always fun, welcoming, and inclusive.
-									And they spread the joy of eating
-									plant-based foods!
-
+                <p>As a means of education and outreach, CAA organizes
+									fun events celebrating and sharing the joy of plant-based foods.
 								</p>
 								<p>For its 8th Annual Vegan Chili Cookoff,
 									I worked with CAA executive director

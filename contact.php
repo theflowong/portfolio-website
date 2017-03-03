@@ -34,8 +34,8 @@
 
 							Here are a few examples of projects I've worked on:
 							<ul>
-								<li>TABAH: art for album jackets</li>
-								<li>Compassionate Action for Animals: event posters</li>
+								<li>Art for music album jackets (for TABAH)</li>
+								<li>Event posters (for Compassionate Action for Animals)</li>
 							</ul>
 							Shoot me a <a href="mailto:hello@flowong.com">message</a>
 							with any ideas, comments, or questions!</p>
