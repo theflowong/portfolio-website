@@ -2,9 +2,6 @@
 
 		<div id = "container">
 			<div id = "content">
-				<div id = "parallax_portrait">
-				</div>
-
 				<div class="main-text">
 					<!--maybe have a circular icon here? -->
 					<h2>Have an idea for a project?</h2>
@@ -39,7 +36,7 @@
 								<li>Getting feedback on website or app interfaces</li>
 								<li>Creating digital painting thank-you postcards</li>
 							</ul>
-							
+
 							Shoot me a <a href="mailto:hello@flowong.com">message</a>
 							with any ideas, comments, or questions!</p>
 					<p>
@@ -49,8 +46,13 @@
 				<div id = "contact-filler">
 					<div class="main-text">
 						<h2>Let's Chat!</h2>
-						<p>I'm always up for meeting new people — I'd love to hear your ideas, chat or get coffee (in Minneapolis)!</p>
-						<p>Shoot me an <a href="mailto:hello@flowong.com">email</a> at hello@flowong.com, or fill out the form below:</p>
+						<p>I would love to hear your ideas.</p>
+						<p>
+							I'm currently engaged in multiple projects,
+							so cannot guarantee a full commitment,
+							but can still help connect you to other artists, coders, musicians, mathematicians, etc. based on project needs.</p>
+						<p>Shoot me an <a href="mailto:hello@flowong.com">email</a> at hello@flowong.com, or fill out the form below,
+							and I'll respond as soon as I can:</p>
 
 
 						<!-- Contact Form : from tutorial http://www.htmldog.com/techniques/formtoemail/ -->
@@ -85,14 +87,14 @@
 										</td>
 									</tr>
 
-									<!--<tr>
+									<tr>
 										<td valign="top">
 											<label for="budget">What's your budget?</label>
 										</td>
 										<td valign="top">
 											<input type="text" name="budget" maxlength="1000" size="30">
 										</td>
-									</tr>-->
+									</tr>
 
 									<tr>
 										<td colspan="2" style="text-align:center">
