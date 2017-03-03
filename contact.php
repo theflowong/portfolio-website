@@ -7,8 +7,8 @@
 
 				<div class="main-text">
 					<!--maybe have a circular icon here? -->
-					<h2>Want to exchange ideas?</h2>
-						<p>Flo is happy to work with fellow artists, vegans,
+					<h2>Have an idea for a project?</h2>
+						<p>I'm happy to work with fellow artists, vegans,
 							activists, humans, organizations and small businesses,
 							especially those promoting:
 							<ul>
@@ -22,7 +22,7 @@
 								<li>community-based projects</li>
 								<li>nice things, or spreading kindness in general</li>
 							</ul>
-							She wears many hats, and is
+							I wear many hats, and am
 							available to help with
 							creative requests (small or large!)
 							with design, web development or arts. This can include:
@@ -32,9 +32,12 @@
 								<li>Creating digital painting thank-you postcards</li>
 							</ul>
 
-							Check out </p>
-							<p>
-							Shoot her a <a href="mailto:hello@flowong.com">message</a>
+							Here are a few examples of projects I've worked on:
+							<ul>
+								<li>TABAH: art for album jackets</li>
+								<li>Compassionate Action for Animals: event posters</li>
+							</ul>
+							Shoot me a <a href="mailto:hello@flowong.com">message</a>
 							with any ideas, comments, or questions!</p>
 					<p>
 					</p>
@@ -72,7 +75,7 @@
 
 									<tr>
 										<td valign="top">
-											<label for="comments">Comments *</label>
+											<label for="comments">What can I do for you?</label>
 										</td>
 										<td valign="top">
 											<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
