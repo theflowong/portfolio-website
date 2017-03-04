@@ -51,7 +51,7 @@
 							I'm currently engaged in multiple projects,
 							so cannot guarantee a full commitment,
 							but can still help connect you to other artists, coders, musicians, mathematicians, etc. based on project needs.</p>
-						<p>Shoot me an <a href="mailto:hello@flowong.com">email</a> at hello@flowong.com, or fill out the form below,
+						<p>Fill out the form below,
 							and I'll respond as soon as I can:</p>
 
 
