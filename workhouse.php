@@ -23,7 +23,8 @@
 							<section>-->
 								<p>
 									I was lucky to be in the beginning stages
-								of a cool multimedia history project
+								of a cool multimedia history
+								<a href="https://apps.carleton.edu/campus/inside/?story_id=1524412&issue_id=1512517">project</a>
 								on creating virtual experiences for 18th century English workhouses!</p>
 								<p>Helping History Professor
 									<a href="https://apps.carleton.edu/curricular/history/faculty/ottaway/">
