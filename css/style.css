@@ -4,51 +4,13 @@ CSS created by Florence Wong :);
 @font-face {
   font-family: Selima;
   src: url("fonts/selima.otf"); }
-/*--------------------begin WordPress stuff--------------------*/
-/*				(just in case I want to use it)				*/
-/* line 4, ../sass/elements/_index.scss */
-/* line 4, ../sass/settings/_wordpress.scss */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block; }
-
-/* line 20, ../sass/settings/_wordpress.scss */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline; }
-
-/* line 27, ../sass/settings/_wordpress.scss */
-[hidden],
-template {
-  display: none; }
-
-/* line 5, ../sass/settings/_index.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 1, ../sass/elements/_index.scss */
+/* line 1, ../sass/base/_typography.scss */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-/* line 7, ../sass/elements/_index.scss */
+/* line 7, ../sass/base/_typography.scss */
 body {
   /*background-image: url("feet.jpg");
   background-size: cover;
@@ -64,7 +26,7 @@ body {
   overflow-x: hidden; }
 
 /*--------------------Links--------------------*/
-/* line 22, ../sass/elements/_index.scss */
+/* line 22, ../sass/base/_typography.scss */
 a {
   color: #00a078;
   text-decoration: none;
@@ -74,18 +36,18 @@ a {
   -o-transition: all 1s ease;
   transition: all 1s ease; }
 
-/* line 31, ../sass/elements/_index.scss */
+/* line 31, ../sass/base/_typography.scss */
 a:hover {
   color: orange; }
 
 /*--------------------H Fonts--------------------*/
-/* line 37, ../sass/elements/_index.scss */
+/* line 37, ../sass/base/_typography.scss */
 h1,
 h2 {
   font-family: Unica One, Voltaire, Corbel, Helvetica, Arial;
   text-align: center; }
 
-/* line 43, ../sass/elements/_index.scss */
+/* line 43, ../sass/base/_typography.scss */
 h2 {
   font-size: 30px;
   -webkit-transition: all 1s ease;
@@ -95,27 +57,33 @@ h2 {
   transition: all 1s ease;
   color: #00a078; }
 
-/* line 53, ../sass/elements/_index.scss */
+/* line 53, ../sass/base/_typography.scss */
 h2:hover {
   font-size: 35px; }
 
-/* line 57, ../sass/elements/_index.scss */
+/* line 57, ../sass/base/_typography.scss */
 h3 {
   font-family: Corbel, Helvetica, Arial, sans-serif;
   font-size: 20px;
   text-align: center;
   line-height: 1.4em; }
 
-/* line 64, ../sass/elements/_index.scss */
+/* line 64, ../sass/base/_typography.scss */
 h4 {
   font-family: Open Sans, Helvetica;
   font-size: 13px;
   line-height: 1.4em;
   text-align: left; }
 
-/* line 71, ../sass/elements/_index.scss */
+/* line 71, ../sass/base/_typography.scss */
 ul {
   text-align: left; }
+
+/* line 1, ../sass/layout/_main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* line 2, ../sass/site/_header.scss */
 #header {
