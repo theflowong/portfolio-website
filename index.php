@@ -189,10 +189,10 @@
 				</div>
 
 				<div class="grid-item design commissions">
-					<a href="chili-poster.php">
+					<a href="caa.php">
 						<figure class="fade" title="Vegan Chili Poster">
-							<img src="img/vegan-chili/chili-poster-color.png" />
-							<figcaption><span><br>Event Poster</span></figcaption>
+							<img src="img/caa/chili-poster-color.png" />
+							<figcaption><span><br>Design for CAA</span></figcaption>
 						</figure>
 					</a>
 				</div>

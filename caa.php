@@ -61,13 +61,13 @@
 
             <li>
               <a class="toggle-description" id="chili-poster0">
-                <img class="img_hover" src="img/vegan-chili/chili-poster-color.png" height="100%" border="0" />
+                <img class="img_hover" src="img/caa/chili-poster-color.png" height="100%" border="0" />
               </a>
             </li>
 
             <li>
               <a class="toggle-description" id="chili-poster-fb0">
-                <img class="img_hover" src="img/vegan-chili/chili-poster-fb2.png" height="100%" border="0" />
+                <img class="img_hover" src="img/caa/chili-poster-fb2.png" height="100%" border="0" />
               </a>
             </li>
 
