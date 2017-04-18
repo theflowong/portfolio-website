@@ -4,55 +4,57 @@
 			<div id = "content">
 				<div class="main-text">
 					<!--maybe have a circular icon here? -->
-					<h2>Have an idea for a project?</h2>
+					<h2>Need some art?</h2>
 						<p>I'm happy to work with fellow artists, vegans,
 							activists, humans, organizations and small businesses,
 							especially those promoting:
 							<ul>
 								<li>social and environmental justice</li>
 								<li>LGBTQIA+ and racial equality</li>
-								<li>help for international students and immigrants</li>
+								<li>international student and immigrant support</li>
 								<li>plant-based advocacy</li>
 								<li>mental health and well-being</li>
 								<li>artwork</li>
 								<li>vegan/food blogs</li>
 								<li>community-based projects</li>
-								<li>nice things, or spreading kindness in general</li>
+								<li><a class="random">weird</a> fun <a class="random2">stuff</a></li>
 							</ul>
 
-							Here are a few examples of projects I've worked on:
+							Here are a few projects I've worked on recently:
 							<ul>
-								<li><a href="tabah.php">Album jacket art</a> (for TABAH)</li>
-								<li><a href="chili-poster.php">Event posters</a> (for Compassionate Action for Animals)</li>
-								<li><a href="design.php">Icons and logos</a> (for Robert Lord)</li>
+								<li><a href="tabah.php">Album jacket art</a> (with watercolors/pencils for TABAH)</li>
+								<li><a href="chili-poster.php">Digital posters & infographics</a> (for Compassionate Action for Animals)</li>
+								<li><a href="design.php">Digitally painted icon/trademark</a> (for Robert Lord)</li>
 							</ul>
 
-							I wear many hats, and am
-							available to help with
-							creative requests (small or large!)
-							with design, web development or arts. This can include:
+							I wear many hats, and can work on
+							creative requests
+							with design, web development or art.
+							My specialty is in 2d graphics
+							(digital illustration/painting, watercolor, animated code, oil painting).
+							This can include:
 							<ul>
+								<li>Commissed personal work (i.e., pet portraits, thank-you postcards, birthday cards)</li>
+								<li>Design/layout for event posters and infographics</li>
+								<li>Artwork for walls or shows</li>
 								<li>Creating illustrations for articles, posts, online content</li>
-								<li>Getting feedback on website or app interfaces</li>
-								<li>Creating digital painting thank-you postcards</li>
 							</ul>
 
 							Shoot me a <a href="mailto:hello@flowong.com">message</a>
-							with any ideas, comments, or questions!</p>
+							with any questions you have, or fill out the form below with your project request and medium<span class="whoa">.<span class="secret">Do it! I don't bite.</span><span></p>
 					<p>
 					</p>
 				</div>
 
 				<div id = "contact-filler">
 					<div class="main-text">
-						<h2>Let's Chat!</h2>
-						<p>I would love to hear your ideas.</p>
-						<p>
-							I'm currently engaged in multiple projects,
-							so cannot guarantee a full commitment,
-							but can still help connect you to other artists, coders, musicians, mathematicians, etc. based on project needs.</p>
+						<h2>Project Request</h2>
 						<p>Fill out the form below,
-							and I'll respond as soon as I can:</p>
+							and I'll respond as soon as I can.</p>
+
+						<p>I cannot guarantee full commitment
+							as I'm currently engaged in multiple projects,
+							but will let you know what is in the realm of possibility!</p>
 
 
 						<!-- Contact Form : from tutorial http://www.htmldog.com/techniques/formtoemail/ -->
@@ -80,10 +82,10 @@
 
 									<tr>
 										<td valign="top">
-											<label for="comments">What can I do for you?</label>
+											<label for="comments">What can I do for you? <br>(Project description, with desired medium, timeline and other details)</label>
 										</td>
 										<td valign="top">
-											<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+											<textarea  name="comments" maxlength="1000" cols="28" rows="10"></textarea>
 										</td>
 									</tr>
 
@@ -106,16 +108,6 @@
 							</form>
 						</div>
 
-						<p>Otherwise, visit me on any of these social media sites.</p>
-						<p><br><br>
-							<a class = "contact_icon" href="mailto:florencewong1020@gmail.com"><i class="fa fa-envelope-o"></i></a>
-							<a class = "contact_icon" href="https://github.com/theflowong"><i class="fa fa-github"></i></a>
-							<a class = "contact_icon" href="https://www.linkedin.com/profile/view?id=263914176&trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square"></i></a>
-							<a class = "contact_icon" href="https://dribbble.com/flo_wong"><i class="fa fa-dribbble"></i></a>
-							<a class = "contact_icon" href="https://twitter.com/flo_rence_wong"><i class="fa fa-twitter"></i></a>
-							<a class = "contact_icon" href="https://www.pinterest.com/florencewong102/"><i class="fa fa-pinterest"></i></a>
-							<a class = "contact_icon" href="https://www.facebook.com/florencewong1020"><i class="fa fa-facebook-square"></i></a>
-						</p>
 					</div>
 				</div>
 
