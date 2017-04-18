@@ -172,9 +172,9 @@
 
 				<div class="grid-item design 2d">
 					<a href="design.php">
-						<figure class="fade" title="Branding">
+						<figure class="fade" title="Branding & Design">
 							<img src="img/design/logo_orangemoon1.png" />
-							<figcaption><span>Branding</span></figcaption>
+							<figcaption><span>Branding & Design</span></figcaption>
 						</figure>
 					</a>
 				</div>
@@ -192,7 +192,7 @@
 					<a href="caa.php">
 						<figure class="fade" title="Vegan Chili Poster">
 							<img src="img/caa/chili-poster-color.png" />
-							<figcaption><span><br>Design for CAA</span></figcaption>
+							<figcaption><span><br>CAA Posters & Infographics</span></figcaption>
 						</figure>
 					</a>
 				</div>
