@@ -35,13 +35,11 @@
 			    <!--<a href="#" data-filter=".places">Places</a>
 					<a href="#" data-filter=".figures">Figures</a>-->
 
-			   	<a href="#" data-filter=".dreamy">Surreal</a>
-					<a href="#" data-filter=".commissions">Commissions</a>
+					<a href="#" data-filter=".commissions">Work / Commissions</a>
 
 			   	<br>
 			    <!--<a href="#" data-filter=".2d">2d</a>-->
-					<a href="#" data-filter=".quickies">quickies</a>
-			    <a href="#" data-filter=".3d">3d</a>
+					<a href="#" data-filter=".play">play</a>
 			    <a href="#" data-filter=".design">Digital</a>
 			</div>
 
@@ -59,7 +57,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item dreamy places 3d">
+				<div class="grid-item dreamy places 3d play">
 					<a href="ceramics.php">
 						<figure class="fade" title="Cups, Mugs & Plates">
 							<img src="img/ceramics/cup6.jpg" />
@@ -68,16 +66,16 @@
 					</a>
 				</div>
 
-				<div class="grid-item dreamy 2d places">
+				<div class="grid-item dreamy 2d places play">
 					<a href="surrealist.php">
-						<figure class="fade" title="Surrealist Paintings">
+						<figure class="fade" title="Surrealist Oil Paintings">
 							<img src="img/oil/surrealist1_small.jpg" />
-							<figcaption><span>Surrealist Paintings</span></figcaption>
+							<figcaption><span>Surrealist Oil Paintings</span></figcaption>
 						</figure>
 					</a>
 				</div>
 
-				<div class="grid-item dreamy 2d places design">
+				<div class="grid-item dreamy 2d places design play">
 					<a href="animated.php">
 						<figure class="fade" title="Animations!">
 							<img src="img/processing/trippy_trees1.png" />
@@ -86,7 +84,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item design 3d places">
+				<div class="grid-item design 3d places commissions">
 					<a href="workhouse.php">
 						<figure class="fade" title="3D Modeling">
 							<img src="img/work/workhouse.jpg" />
@@ -105,7 +103,7 @@
 				</div>
 
 
-				<div class="grid-item figures 2d quickies">
+				<div class="grid-item figures 2d play">
 					<a href="figures.php">
 						<figure class="fade" title="Portraits and Figures">
 							<img src="img/south_pacific/people/people2_small.jpg" />
@@ -114,7 +112,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item design figures 2d">
+				<div class="grid-item design play figures 2d">
 					<a href="digital-art.php">
 						<figure class="fade" title="Digital Art">
 							<img src="img/digital-art/rolo.jpg" />
@@ -142,7 +140,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item imagined 3d figures">
+				<div class="grid-item imagined 3d play figures">
 					<a href="metals.php">
 						<figure class="fade" title="Animal Rings">
 							<img src="img/metals/ring_animals.jpg" alt="image"/>
@@ -152,7 +150,7 @@
 				</div>
 
 
-				<div class="grid-item places 2d quickies">
+				<div class="grid-item places 2d play">
 					<a href="watercolor.php">
 						<figure class="fade" title="Watercolor">
 							<img src="img/south_pacific/watercolor/watercolor9_small.jpg" />
@@ -170,7 +168,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item design 2d">
+				<div class="grid-item design 2d commissions">
 					<a href="design.php">
 						<figure class="fade" title="Branding & Design">
 							<img src="img/design/logo_orangemoon1.png" />
@@ -179,7 +177,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item places 2d quickies">
+				<div class="grid-item places 2d play">
 					<a href="pen.php">
 						<figure class="fade" title="Pen and Ink">
 							<img src="img/south_pacific/pen/penink8.jpg" />
@@ -188,7 +186,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item design commissions">
+				<div class="grid-item design commissions activism">
 					<a href="caa.php">
 						<figure class="fade" title="Vegan Chili Poster">
 							<img src="img/caa/chili-poster-color.png" />
@@ -197,7 +195,7 @@
 					</a>
 				</div>
 
-				<div class="grid-item imagined 2d figures quickies">
+				<div class="grid-item imagined 2d figures play">
 					<a href="musicians.php">
 						<figure class="fade" title="Musicians Gone Wild">
 							<img src="img/prints/musicians4_small.jpg" />
