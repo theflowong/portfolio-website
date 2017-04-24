@@ -7,17 +7,17 @@
 
 				<div class="main-text">
 					<!--maybe have a circular icon here? -->
-					<h2>About Flo</h2>
+
+					<h2>Life Philosophy</h2>
 					<p>Hi! I believe in living life with optimism and kindness,
 						and spreading it to others in any way we can.</p>
-						<p>Since I have the privilege of meddling
-							and creating art and design,
+						<p>Since I have the privilege of meddling with/creating art and design,
 							I try to use my abilities as a voice
 							for those often unheard.</p>
 						<p>Here are a few things I actively promote:</p>
 						<ul>
 							<li>community building</li>
-							<li>respect and compassion for all life forms</li>
+							<li>respect, compassion, appreciation for all life forms</li>
 							<li>nonviolent communication</li>
 							<li>moral dialogue, reflection and consistency</li>
 							<li>intentional living</li>
@@ -27,13 +27,23 @@
 						<p>Here are some things I am exploring, or find intriguing:</p>
 						<ul>
 							<li><a href="https://80000hours.org/">effective altruism</a></li>
-							<li>longboard <a href="https://www.youtube.com/watch?v=e7os4K_xI9Y">dancing</a> (my role model)</li>
+							<li>longboard dancing (my <a href="https://www.youtube.com/watch?v=e7os4K_xI9Y">role model</a>)</li>
 							<li>minimalism (reducing material possessions)</li>
 							<li><a class="random">web</a> and <a class="random2">mobile</a>
 								<a class="showing_off">development</a>
 								<span class="whoa"> <span class="secret">Whoa! You discovered Secret 1 (of 5)!</span><span>
 						</li>
 						</ul>
+
+						<h2>Life Background</h2>
+						<p>I grew up in Hong Kong amongst
+							<a href="https://en.wikipedia.org/wiki/Third_culture_kid">third culture kids</a>
+							in an international school,
+							and graduated with a Studio Art degree in 2016 from
+							a liberal arts college Carleton College
+							while living in an intentional commune.
+							Life is a continuous educational journey,
+							which I am forever grateful for.</p>
 						<p>Right now, I'm living in and loving Minneapolis, MN, USA.
 							It's an artistic mecca fortified by these amazingly
 							strong communities and people — I find myself
@@ -44,10 +54,6 @@
 							promoting the arts scene among local communities in Minneapolis,
 							as well as freelance design and art work commissions
 							for local businesses and nonprofits.</p>
-						<p>I grew up in Hong Kong with TCKs
-							in an international school,
-							and graduated in 2016 from
-							a LAC Carleton College with a Studio Art degree.</p>
 							<p>On the side, I'm having a blast diving in with
 							web design/development — currently tackling
 							responsive web and mobile design and making
@@ -56,7 +62,8 @@
 							If you see any in particular, please let me know,
 							but there's a chance
 							I'm probably already in the process of fixing them!</p>
-						<br>
+
+						<p><a href="contact.php">Reach out to me.</a></p>
 
 						<p>If your questions aren't sufficiently answered, visit me on any of these social media sites.</p>
 						<p>

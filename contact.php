@@ -52,9 +52,9 @@
 						<p>Fill out the form below,
 							and I'll respond as soon as I can.</p>
 
-						<p>I cannot guarantee full commitment
-							as I'm currently engaged in multiple projects,
-							but will let you know what is in the realm of possibility!</p>
+						<p>I'm currently engaged in several projects
+							so cannot guarantee full commitment,
+							but will let you know what is in the realm of possibility.</p>
 
 
 						<!-- Contact Form : from tutorial http://www.htmldog.com/techniques/formtoemail/ -->
