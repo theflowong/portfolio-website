@@ -35,12 +35,11 @@
 			    <!--<a href="#" data-filter=".places">Places</a>
 					<a href="#" data-filter=".figures">Figures</a>-->
 
-					<a href="#" data-filter=".commissions">Work / Commissions</a>
-
-			   	<br>
 			    <!--<a href="#" data-filter=".2d">2d</a>-->
 					<a href="#" data-filter=".play">play</a>
 			    <a href="#" data-filter=".design">Digital</a>
+					<a href="#" data-filter=".commissions">Work / Commissions</a>
+
 			</div>
 
 			<div class="portfolioContainer">
