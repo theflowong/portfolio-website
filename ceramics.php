@@ -21,13 +21,15 @@
 							<label for="read_more" onclick""><span>Show More</span><span>Show Less</span></label>
 							<section>-->
 								<p>
-									I'm currently taking Handbuilding this winter with
+									I took Handbuilding winter of 2016 with
 												<a href="http://www.kipokrongly.com/">Kip O'Krongly</a>,
 												an amazing ceramics artist who advocates for environmental
 												awareness through her work.</p>
-												<p>An invigorating process, it's also the reason
-													why I've been spending half of my waking life
-													in the studio this term.</p>
+												<p>An extremely invigorating process, it's the reason why
+													I spent half my winter 2016 waking hours in the studio.</p>
+												<p>I loved not only creating shapes from clay,
+													but also being able to paint surreal designs
+													(evidently inspired by nature) on the surfaces.</p>
 												<p>Here are some of my functional works!</p>
 						<!--</section>-->
 						</article>
