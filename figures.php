@@ -20,10 +20,16 @@
 								Winter of 2015, I had the chance to study abroad and travel
 									around cities and national parks in the Cook Islands, New Zealand, and Australia with
 									<a href="http://www.people.carleton.edu/~fhagstro/index.html">Fred Hagstrom</a>.
-									I carried hand-bound sketchbooks with me, so whenever I observed
-									something intriguing, I recorded it visually.
-									Being constantly surrounded by pristine landscapes and cityscapes
-									makes one realize the beauty and magnitude of nature.</p>
+									I carried hand-bound sketchbooks with me, and used drawing/painting
+									as a camera to record the world.</p>
+									<p>In addition to my <a href="watercolor.php">watercolor</a>
+									and <a href="pen.php">pen</a> drawings of the land,
+									I practiced drawing people around me.</p>
+									<p>These figure drawings were definitely in the experimental learning stage,
+										but it gave me a better understanding of human anatomy —
+										and made me truly appreciate the beauty of people's unique
+										individual features, like the way skin folds around
+										an eye or stretches on someone's cheek.</p>
 						<!--</section>-->
 						</article>
 					</div>

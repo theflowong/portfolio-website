@@ -7,10 +7,10 @@
 
 					<div class="title">
 						<div class="title-main">
-							Sympathize
+							Humanimals
 						</div>
 						<div class="title-info">
-							Oil on wood, 48"x40" <br>
+							Series of three, oil on wood, 48"x40" <br>
 							2016
 						</div>
 					</div>
@@ -24,7 +24,7 @@
 									Humans generally think of animals as units of production,
 									objects to use for advantaging the human. Yet similarly to us,
 									animals feel pain, suffer, and the desire to live and be social.</p>
-									<p>For my senior thesis, I created large-scale (4 feet tall) oil paintings
+									<p>For five months, I created large-scale (4 feet tall) oil paintings
 										of humorous human-animal role-reversal scenarios
 										to hopefully foster empathy and reflection on the situations
 										we put animals in.</p>
@@ -51,7 +51,7 @@
 										nonhuman animals in, and reflect on their own
 										everyday consumption that may support these systems.
 									</p>-->
-									
+
 						<!--</section>-->
 						</article>
 					</div>
