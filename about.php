@@ -16,7 +16,7 @@
 							for those often unheard.</p>
 						<p>Here are a few things I actively promote:</p>
 						<ul>
-							<li>community building</li>
+							<li>building community</li>
 							<li>respect, compassion, appreciation for all life forms</li>
 							<li>nonviolent communication</li>
 							<li>moral dialogue, reflection and consistency</li>
@@ -24,6 +24,9 @@
 							<li>animal ethics and advocacy, especially in the food industry</li>
 
 						</ul>
+
+						<p>Additionally, the amount of life, energy and beauty in the natural world
+							inspires me, so often shows up as a theme in my art.</p>
 						<p>Here are some things I am exploring, or find intriguing:</p>
 						<ul>
 							<li><a href="https://80000hours.org/">effective altruism</a></li>
