@@ -1,5 +1,6 @@
 # flowong.com
-The source code of my art portfolio website http://flowong.com.
+The source code of my former art portfolio website http://flowong.com.
+(I've since switched to a website on Squarespace, as I wanted to focus more on the content of my website rather than constantly iterating on its development.)
 
 Uses HTML, CSS, SASS, PHP, Javascript.
 
