@@ -14,6 +14,8 @@ These instructions are also for my own good, because I have the memory capacity 
 ### 1. Set up your local web server.
 
    Since my site has dynamic content that uses PHP, you'll need to have your local web server set up. I use MAMP.
+   
+   (In retrospect, PHP is completely unnecessary for this website, since it's a static site. But, you know. I was trying to experiment with PHP to make more modular components. Whatever, it's my website.)
 
 ### 2. Save the repository.
 
