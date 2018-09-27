@@ -7,7 +7,7 @@ Uses HTML, CSS, SASS, PHP, Javascript.
 
 ## How to Install and View Locally
 
-You can always view my website on the world wide webz, but if you want to view it on your own local web server, here is one way to go about installing and viewing the content.
+If you want to view my website on your own local web server, here is one way to go about installing and viewing the content.
 
 These instructions are also for my own good, because I have the memory capacity of a pickle.
 
